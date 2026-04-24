@@ -1,0 +1,119 @@
+========================================================================
+  CLINICAL PREPAREDNESS REPORT
+  Generated: 2026-04-11 10:00:59
+========================================================================
+  Primary Dx: Chorea (G25.1)
+  DSM-5 Category: neurodevelopmental_disorders
+  Severity: unknown
+  Overall MH Risk: UNKNOWN
+========================================================================
+
+1. PATIENT OVERVIEW
+----------------------------------------
+The patient is a female with a primary diagnosis of Chorea, a neurodevelopmental disorder. She was admitted due to increased agitation, impulsivity, and difficulty caring for herself, as reported by her family. Key features include involuntary, dance-like movements and a lack of psychiatric history.
+
+2. MENTAL HEALTH STATUS
+----------------------------------------
+While Chorea is primarily a neurodevelopmental disorder, the patient's current symptoms of agitation and impulsivity are concerning and relevant to mental health. These symptoms could indicate an underlying or emerging psychiatric condition, such as a mood or anxiety disorder, which could be exacerbated by her neurodevelopmental disorder.
+
+3. KEY RISK FACTORS
+----------------------------------------
+  • Increased agitation and impulsivity
+  • Social isolation due to prolonged absence from the outside world
+  • Lack of psychiatric history, which may mask or delay recognition of psychiatric comorbidities
+
+4. PROTECTIVE FACTORS
+----------------------------------------
+  • Normal blood WBC count, indicating no current infection or inflammation
+  • No active substance use, reducing the risk of substance-related complications
+
+5. COUNTERFACTUAL SCENARIO BRIEFING
+----------------------------------------
+1. Psychiatric / Clinical Deterioration Pathway
+Plausibility: Unknown, but high relevance due to current symptoms.
+Key concern: Worsening of neurodevelopmental symptoms leading to severe neglect of personal care.
+Top action: Conduct a thorough medication adherence assessment and consider adjusting the treatment plan if necessary; Implement a structured daily routine with support from a mental health professional to manage agitation and impulsivity.
+
+2. Substance Use Escalation Pathway
+Plausibility: Unknown, but high relevance due to increased agitation and impulsivity.
+Key concern: Development of a severe substance use disorder, exacerbating neurodevelopmental condition.
+Top action: Conduct a thorough assessment of the patient's current mental health status and risk factors for substance use; Develop a comprehensive, multidisciplinary treatment plan that includes regular monitoring of neurodevelopmental symptoms and substance use behaviors.
+
+3. Social / Environmental Collapse Pathway
+Plausibility: Unknown, but high relevance due to prolonged social isolation.
+Key concern: Significant decline in mental health, with depressive symptoms becoming severe, leading to functional impairment.
+Top action: Schedule regular psychiatric evaluations to monitor mental health status; Implement a structured daily routine to provide a sense of normalcy and stability; Engage the patient in telehealth therapy sessions to reduce feelings of isolation.
+
+  --- Detailed Scenario Data ---
+
+  [A] Psychiatric / Clinical Deterioration Pathway
+    Narrative: The patient with Chorea (ICD: G25.1, DSM-5: neurodevelopmental_disorders) is exhibiting increased agitation and impulsivity, which are concerning symptoms that could indicate a worsening of their underlying condition. This escalation in symptoms may lead to a neglect of personal hygiene and basic self-care, potentially resulting in secondary health complications such as skin infections, malnutrition, or dehydration. The lack of identified comorbid mental health diagnoses and no active suicidal i
+    Crisis Endpoint: The patient may experience severe neglect of personal care, leading to life-threatening secondary health complications such as severe malnutrition, dehydration, or untreated infections.
+    Plausibility: unknown
+    MH Relevance: unknown — The mental health relevance is high due to the direct impact of the patient's neurodevelopmental disorder on their daily functioning and the potential for secondary health complications. The current symptoms of agitation and impulsivity are evidence-based psychiatric concerns that are directly tied to the patient's mental health condition and require immediate attention to prevent negative outcomes.
+    Warning Signs:
+      - Decline in personal hygiene and self-care
+      - Increased agitation and impulsivity
+      - Unknown medication adherence
+      - Development of secondary health complications (e.g., skin infections, malnutrition)
+      - Changes in social functioning or increased isolation
+    Preparedness Actions:
+      - Conduct a thorough medication adherence assessment and consider adjusting the treatment plan if necessary.
+      - Implement a structured daily routine with support from a mental health professional to manage agitation and impulsivity.
+      - Arrange for home health services to assist with personal hygiene and basic self-care.
+      - Schedule regular follow-up appointments to monitor the patient's mental and physical health status.
+      - Educate the patient and family about the importance of self-care and signs of secondary health complications.
+
+  [B] Substance Use Escalation Pathway
+    Narrative: The patient with Chorea, characterized by involuntary, dance-like movements, is currently experiencing increased agitation and impulsivity. These symptoms may exacerbate her neurodevelopmental disorder, potentially leading to a deterioration in her ability to cope with daily stressors. Without appropriate intervention, the patient might seek alternative, maladaptive coping mechanisms, such as substance use, to manage her symptoms. This escalation could result in a pattern of substance abuse, fur
+    Crisis Endpoint: The patient may develop a severe substance use disorder, which could significantly worsen her neurodevelopmental condition, leading to a chronic pattern of impaired functioning, increased healthcare costs, and potential legal and social consequences.
+    Plausibility: unknown
+    MH Relevance: unknown — The mental health relevance is high due to the direct impact of the patient's neurodevelopmental disorder on
+    Warning Signs:
+      - A noticeable increase in impulsive decision-making or actions
+      - Verbal or non-verbal expressions of using substances to self-medicate or escape symptoms
+      - Deterioration in personal hygiene or self-care routines
+      - Withdrawal from previously enjoyed activities or social interactions
+      - Observable signs of intoxication or withdrawal symptoms
+    Preparedness Actions:
+      - Conduct a thorough assessment of the patient's current mental health status and risk factors for substance use
+      - Develop a comprehensive, multidisciplinary treatment plan that includes regular monitoring of neurodevelopmental symptoms and substance use behaviors
+      - Provide psychoeducation to the patient and her support network about the risks of substance use and the importance of adherence to treatment
+      - Engage in regular, structured follow-up appointments to monitor progress and adjust treatment as necessary
+      - Consider involving a mental health professional with expertise in substance use disorders to collaborate on the patient's care
+
+  [C] Social / Environmental Collapse Pathway
+    Narrative: The patient with Chorea, a neurodevelopmental disorder characterized by involuntary, irregular movements, has been experiencing prolonged social isolation due to not leaving the house for over a year. This isolation has led to increased feelings of loneliness and has potentially exacerbated the patient's Chorea symptoms. The lack of social interaction may also contribute to the development of depressive symptoms, which can further complicate the management of Chorea. The patient's medication adh
+    Crisis Endpoint: The patient may experience a significant decline in mental health, with depressive symptoms becoming severe, leading to a functional impairment that could require more intensive psychiatric intervention or even hospitalization.
+    Plausibility: unknown — The patient's prolonged social isolation is a well-documented risk factor for the development of depressive symptoms, particularly in individuals with neurodevelopmental disorders like Chorea. Given the current lack of social interaction and the potential for worsening symptoms, it is plausible that the patient could experience a significant decline in mental health.
+
+MH RELEVANCE: high
+    MH Relevance: unknown — The mental health relevance is high due to the direct impact of social isolation on the patient's mental health, particularly in the context of a neurodevelopmental disorder like Chorea. The risk of developing depressive symptoms and the exacerbation of Chorea symptoms are both significant concerns that require proactive monitoring and intervention.
+    Warning Signs:
+      - Increased frequency and severity of Chorea symptoms
+      - Expressions of hopelessness or helplessness
+      - Withdrawal from previously enjoyed activities
+      - Changes in sleep patterns (insomnia or hypersomnia)
+      - Decline in cognitive function or attention span
+    Preparedness Actions:
+      - Schedule regular psychiatric evaluations to monitor mental health status
+      - Implement a structured daily routine to provide a sense of normalcy and stability
+      - Engage the patient in telehealth therapy sessions to reduce feelings of isolation
+      - Involve a social worker to explore community resources and support systems
+      - Educate the patient and family about the importance of medication adherence and potential side effects
+
+6. PRIORITY PREPAREDNESS ACTIONS
+----------------------------------------
+  1. Implement a structured daily routine with support from a mental health professional to manage agitation and impulsivity.
+  2. Conduct a thorough medication adherence assessment and consider adjusting the treatment plan if necessary.
+  3. Schedule regular psychiatric evaluations to monitor mental health status.
+  4. Develop a comprehensive, multidisciplinary treatment plan that includes regular monitoring of neurodevelopmental symptoms and substance use behaviors.
+  5. Engage the patient in telehealth therapy sessions to reduce feelings of isolation.
+  6. RISK TIER: HIGH
+
+7. OVERALL RISK TIER: UNKNOWN
+   The patient's current symptoms of agitation and impulsivity, coupled with her neurodevelopmental disorder, present a high risk for psychiatric deterioration, substance use escalation, and social/environmental collapse. These pathways could lead to severe neglect of personal care, development of a severe substance use disorder, and significant decline in mental health, respectively. Immediate action is required to mitigate these risks and support the patient's mental health and well-being.
+
+========================================================================
+  END OF REPORT
+========================================================================
