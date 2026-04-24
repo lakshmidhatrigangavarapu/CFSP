@@ -133,18 +133,6 @@ python scripts/evaluate.py \
 - 1x GPU with 16GB+ VRAM
 - 32GB system RAM
 
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{yourname2024counterfactual,
-  title={Counterfactual Simulation of Extreme Mental Health Scenarios for Clinical Preparedness via Fine-Tuned LLMs and Explainable AI},
-  author={Your Name},
-  year={2024}
-}
-```
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
