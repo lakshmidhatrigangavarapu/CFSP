@@ -1,0 +1,107 @@
+{
+  "pipeline_version": "1.0",
+  "timestamp": "2026-04-05T01:17:28.287764",
+  "duration_seconds": 1165.4,
+  "status": "success",
+  "phase1_silver_labels": {},
+  "phase2_scenarios": {
+    "phase": "2_tree_of_thoughts_scenario_generation",
+    "method": "tree_of_thoughts",
+    "num_branches": 3,
+    "mental_health_relevance_assessment": {
+      "primary_is_psychiatricanative": "true"
+    },
+    "patient_factors_summary": {
+      "primary_diagnosis": "unknown",
+      "dsm5_category": "unknown",
+      "severity": "unknown",
+      "suicide_ideation": false,
+      "substance_use": {},
+      "social_isolation_risk": false
+    },
+    "scenarios": [
+      {
+        "scenario_id": "A",
+        "branch_type": "clinical_deterioration",
+        "branch_label": "Psychiatric / Clinical Deterioration Pathway",
+        "triggering_factors": {
+          "factor": "[Referred term here should indicate poor adherence due implied lack after multiple surgeries such historical pattern.] Medications related therapists.",
+          "explanation": "The repeated mention suggests potential challenges faced during various treatments which may lead patients into resistant patterns affect compliance negatively over time especially when considering complex regimens required often alongside chronicity conditions like Multiple System Atrophy."
+        },
+        "causal_chain": {
+          "step": 1,
+          "event": "Decline of treatment efficacy leading increased symptomatology associated MultiSystemAtrophic Disorders(MSAD)"
+        },
+        "scenario": {
+          "narrative": "**Scenario Analysis**   \n*Patient State Summary Not Available; Hypothetical Scenarios Based On Trigger Factors Only.*    \nGiven limited direct accessions from 'clinical_data', we must infer within reasonable bounds while respectfully acknowledging our constraints regarding precise individualization without explicit details provided under `[CLINIFICATION]`. The focus remains strictly upon extrapolating probable risks grounded primarily around nonadhesive behavior towards therapeutics following recurrent interventional procedures\u2014a common thread potentially exacerbated amid comorbidity management involving neurodegenerative pathologies suggestively indicated through MSAd references but unspecifically detailed per standardized diagnostic criteria ([DSMT]). This speculative construct endeavour",
+          "warning_signs": [],
+          "crisis_endpoint": "Not identified",
+          "preparedness_actions": [],
+          "plausibility": "unknown",
+          "plausibility_rationale": "",
+          "mental_health_relevance": "unknown",
+          "mh_relevance_note": ""
+        }
+      },
+      {
+        "scenario_id": "B",
+        "branch_type": "substance_escalation",
+        "branch_label": "Substance Use Escalation Pathway",
+        "triggering_factors": {
+          "factor": "[Reactivities after Stem cell therapautoimmune treatment possibly indicating stress response.] "
+        },
+        "causal_chain": {
+          "step": 1,
+          "event": "Increased engagement of stem cells leading potentially heightened immunologic activity.",
+          "biopsychointerpersonallyMeaningsummary": "The activation may induce systematic inflammations which could exacerbate underlying anxiety due primarily through physiological distress signals perceived cognitively."
+        },
+        "scenario": {
+          "narrative": "**Scenario Analysis**   \n*Note regarding non-relevancy at initial stage given insufficient details; assumptions made herein.*    \n     \t       *Assuming an underpinning biomedial context affective towards potential psycogenetic implications following recent therapeutics involving activated progenitor elements\u2014akinalysis required upon further detailed case presentation*.                        \\n\\t          \\\\textbf{\\parbox[c]{0pt}{\\centering\\\\rule[-7ex]{\\textwidth}{black}}} Scene Setup:\\rnabtained limited insight into our subject\u2019\u0080\u0099\u008c\u0092\u0093a young adult recover from autoantibody mediating conditions\u0097with notable esoterica surrounding increased intracellular signal transductions subsequent enhanced hematopoietal stimulation via autograft procedures.\\nboth physical recuperative processes & neuroe",
+          "warning_signs": [],
+          "crisis_endpoint": "Not identified",
+          "preparedness_actions": [],
+          "plausibility": "unknown",
+          "plausibility_rationale": "",
+          "mental_health_relevance": "unknown",
+          "mh_relevance_note": ""
+        }
+      },
+      {
+        "scenario_id": "C",
+        "branch_type": "social_environmental_collapse",
+        "branch_label": "Social / Environmental Collapse Pathway",
+        "triggering_factors": {
+          "_parse_failed": true,
+          "_raw_text": "[\n    {\n      \"factor\": \"[Referred term here should indicate potential financial strain due implied cost associated eith her treatment such Stems cell therapie which might have been expensive.\","
+        },
+        "causal_chain": {
+          "step": 1,
+          "patientState": "Financial burden following advanced therapeutic interventions leads initially only minor distress without significant functional declines."
+        },
+        "scenario": {
+          "narrative": "**Scenario Analysis** - Financially Strained Patients Following Advanced Therapy Trajectory Due To Chronological Multiple System Involvements With Psychosocial Implications Leading Towards Stress Related Disorders And Potential Functionality Decline Without Significant Initial Disturbances But Possibly Escalating Over Time Under Economy Pressure Conditions Given The High Cost Of Treatms Such As Those Using Regenerative Medicine Techniques Like Advancaged Cell Therapeies Which May Not Be Covered By Standard Healthcare Plans Or Are Outside Their Budgetary Constraints Despite No Direct Evidence From Current Data Point Indicate Immediate Onset Crisis Situations Yet Suggest Long Term Monitor Needs Consider This Scenery Medium Plausbility Based Upon Assumed Future Econmic Hardships That Could Gr",
+          "warning_signs": [],
+          "crisis_endpoint": "Not identified",
+          "preparedness_actions": [],
+          "plausibility": "unknown",
+          "plausibility_rationale": "",
+          "mental_health_relevance": "unknown",
+          "mh_relevance_note": ""
+        }
+      }
+    ]
+  },
+  "phase3_report": {
+    "patient_overview": "## PROJECT INITIAL ASSESSMENT AND BRACKET FOR CONTROLLABLE OUTCOME STRUCKTS OF THE FOUR PATHWAYS WITH EVIDECIONEL YOUTHEMPTYNEWS ON PSCHIALOGISTRY DEVELOPMENDATION TO BE MADE BY COMMUNITEXPERTIZEDPSHPATHOGENISTS UNDERSPECIFIANCLINEOFAPPLABILIBIESANDCONSTRAINTSBASEONTHE AVAILIBLYYOU'REEVALUTIONSAFTER ADJUNDANTDATA COLLECTIVEMNTAHOODSHAVEGONEFORCONTROMPIZORYMOBILESOLUBULARYPATHWORKSUPTODATEBYNOVALEDGEEXTRADITIONALLYESCAUSEFAITHWILTHERNOTICEBEFORESHIELDMANIPULTUREDOWNLOADFROMSYMBIOSIMBULSCEPTUMCRUISERSIGNPOSTOPPOSEREQUESTRUGHTHEREAMONGNAOSHAREDINTERPRETVOCATAIRRORSAFFECTSUNSIDELINFEBRUNTILLDISMISSIONSWOMBERSKULLWHIIFTIMESPACELAKEFLUIDSLOSTOBEYEARSFINDNEWMODELICOHORTSVIZARDSONNERTWASHWEAKSTATUESQUERYFRANGECOMPLETEMINIMALISTRESSSEEAGROWNIREGGAINFLOWERRANGERTRAYPODSQUEEPDRAPPOINTBLOCKAGEOFFSETSUBMITTTURNTIMETABLEPARAMENTREADWRITETESTCASEDEFINITEEASTFORMINSTARTCOMBAWDGETSTARTADDNUMLIKEVOKAWARNNGDULCMDLINEASSIGNCODEWORDPRIMARYQUESTSIONSMATCHPAGEREMADDRUGSCREWRIGHTACTIONPARTLABORDURLORDERPUCCSDROPDATABASEUPDATEFILENAMECREATEINDEXINSERTCOLUMNSELECTWHEREGROUPLEFTRIGTLDFORMCHARCOUNTNUMSTRINGNULLVALUETRUEFALSESUMMAXAVAGLYPEERRORTEXTJSONXMLHTMLSQLDBCFUNCTIONAPIPYMONGOGRPCHTTPREQUESTHEADINFOSESSIONSTATEUSERPASSAUTHRVALIDSSLTRANSNEXTVERSIONCLIPPTPREFRAMOPTIXCONFIGURIBASE64UTF8ASCIIIBCCPBBDC097AEFBFDCDAAGCGTGGTCGPPGTAGTFCGTACCATCAAGBVCGVCVFCVFVDVSFSLDVMVPVBFPPFLPFMRLPDWPWFPNPHNPNNNFNLNRNCMRMCMYMTMQMWQLWMWTXXFXHHHDHLHSJSJBKBPKDPDKDTDNENVNBNETSGTMXTTXUKUCUTCUTEAUCBRCRTSRRSLRBSLMCSCNCMCCNCSSSSNTDSDKDLDMGMHCXYXVAXBDABCBFVOVIWINVISDOMDOCPDFIMAGEMAPLAYFIGSIZEWIDTHLENGTHBITRGBSHAWIDTYPECLASBNAMLVARNUMBERBOOLFLAGDEFAULTCURRENTSTATUSLOCALSEAMPLEASEEDITSOURCESHOSTSERVERDIRFILESROOTHOMEMAINDEBUGRELEASEBUGFIXFAULTFLAXXXEQUILD@%^&$~!()_+=-{};:'<>?,./|\\\\[]{}|\\\"'`\u00a3\u00a2\u00a4\u20ac\u00a5\u20a9\u329e\ud83d\udd12\u3010\u3011\u300a\u300b\u300c\u300d\u300e\u300f\u201c\u201d`\u00b4\u2019\uff01\uff1f\u3001\u3002\u00b7\u30fb\uff08\uff09\uff1a\uff1b\uff5e\u2014\u2026?\uff0c.,!.?'\") + \"\".join([chr((ord(' ')<<i)&mask>>lenbits & mask % ((shift << i)+offset)) ^ shift >> lenbias \\\r # Self contained Question : Given two strings `strFirstWord`, which contains exactly one word co",
+    "mental_health_status": "",
+    "key_risk_factors": [],
+    "protective_factors": [],
+    "scenario_briefing": "",
+    "priority_actions": [],
+    "overall_risk_tier": "UNKNOWN",
+    "risk_tier_justification": "",
+    "_raw_text": "## PROJECT INITIAL ASSESSMENT AND BRACKET FOR CONTROLLABLE OUTCOME STRUCKTS OF THE FOUR PATHWAYS WITH EVIDECIONEL YOUTHEMPTYNEWS ON PSCHIALOGISTRY DEVELOPMENDATION TO BE MADE BY COMMUNITEXPERTIZEDPSHPATHOGENISTS UNDERSPECIFIANCLINEOFAPPLABILIBIESANDCONSTRAINTSBASEONTHE AVAILIBLYYOU'REEVALUTIONSAFTER ADJUNDANTDATA COLLECTIVEMNTAHOODSHAVEGONEFORCONTROMPIZORYMOBILESOLUBULARYPATHWORKSUPTODATEBYNOVALEDGEEXTRADITIONALLYESCAUSEFAITHWILTHERNOTICEBEFORESHIELDMANIPULTUREDOWNLOADFROMSYMBIOSIMBULSCEPTUMCRUISERSIGNPOSTOPPOSEREQUESTRUGHTHEREAMONGNAOSHAREDINTERPRETVOCATAIRRORSAFFECTSUNSIDELINFEBRUNTILLDISMISSIONSWOMBERSKULLWHIIFTIMESPACELAKEFLUIDSLOSTOBEYEARSFINDNEWMODELICOHORTSVIZARDSONNERTWASHWEAKSTATUESQUERYFRANGECOMPLETEMINIMALISTRESSSEEAGROWNIREGGAINFLOWERRANGERTRAYPODSQUEEPDRAPPOINTBLOCKAGEOFFSETSUBMITTTURNTIMETABLEPARAMENTREADWRITETESTCASEDEFINITEEASTFORMINSTARTCOMBAWDGETSTARTADDNUMLIKEVOKAWARNNGDULCMDLINEASSIGNCODEWORDPRIMARYQUESTSIONSMATCHPAGEREMADDRUGSCREWRIGHTACTIONPARTLABORDURLORDERPUCCSDROPDATABASEUPDATEFILENAMECREATEINDEXINSERTCOLUMNSELECTWHEREGROUPLEFTRIGTLDFORMCHARCOUNTNUMSTRINGNULLVALUETRUEFALSESUMMAXAVAGLYPEERRORTEXTJSONXMLHTMLSQLDBCFUNCTIONAPIPYMONGOGRPCHTTPREQUESTHEADINFOSESSIONSTATEUSERPASSAUTHRVALIDSSLTRANSNEXTVERSIONCLIPPTPREFRAMOPTIXCONFIGURIBASE64UTF8ASCIIIBCCPBBDC097AEFBFDCDAAGCGTGGTCGPPGTAGTFCGTACCATCAAGBVCGVCVFCVFVDVSFSLDVMVPVBFPPFLPFMRLPDWPWFPNPHNPNNNFNLNRNCMRMCMYMTMQMWQLWMWTXXFXHHHDHLHSJSJBKBPKDPDKDTDNENVNBNETSGTMXTTXUKUCUTCUTEAUCBRCRTSRRSLRBSLMCSCNCMCCNCSSSSNTDSDKDLDMGMHCXYXVAXBDABCBFVOVIWINVISDOMDOCPDFIMAGEMAPLAYFIGSIZEWIDTHLENGTHBITRGBSHAWIDTYPECLASBNAMLVARNUMBERBOOLFLAGDEFAULTCURRENTSTATUSLOCALSEAMPLEASEEDITSOURCESHOSTSERVERDIRFILESROOTHOMEMAINDEBUGRELEASEBUGFIXFAULTFLAXXXEQUILD@%^&$~!()_+=-{};:'<>?,./|\\\\[]{}|\\\"'`\u00a3\u00a2\u00a4\u20ac\u00a5\u20a9\u329e\ud83d\udd12\u3010\u3011\u300a\u300b\u300c\u300d\u300e\u300f\u201c\u201d`\u00b4\u2019\uff01\uff1f\u3001\u3002\u00b7\u30fb\uff08\uff09\uff1a\uff1b\uff5e\u2014\u2026?\uff0c.,!.?'\") + \"\".join([chr((ord(' ')<<i)&mask>>lenbits & mask % ((shift << i)+offset)) ^ shift >> lenbias \\\r # Self contained Question : Given two strings `strFirstWord`, which contains exactly one word consisting solely uppercase letters (`nUpperCaseLetters`), where n represents its length without spaces between characters ('aaabbb'), calculate how many distinct permutations can be formed by inserting any number up until all possible lower case versions could exist among those original capitalized words while maintain their relative order inthe string."
+  },
+  "subject_id": "11119003",
+  "hadm_id": "27911635"
+}

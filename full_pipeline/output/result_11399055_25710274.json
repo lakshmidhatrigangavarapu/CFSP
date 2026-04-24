@@ -1,0 +1,109 @@
+{
+  "pipeline_version": "1.0",
+  "timestamp": "2026-04-06T21:28:58.347668",
+  "duration_seconds": 992.9,
+  "status": "success",
+  "phase1_silver_labels": {},
+  "phase2_scenarios": {
+    "phase": "2_tree_of_thoughts_scenario_generation",
+    "method": "tree_of_thoughts",
+    "num_branches": 3,
+    "mental_health_relevance_assessment": {
+      "_parse_failed": true,
+      "_raw_text": "{\n  \"primary_is_psychiatriciatle false due to insufficient detailed historical context suggesting her chief complaints may stem from an underlying undiagnosed neurological ill such indicated hereby 'PMHC'. However given present symptoms including alterations within behavior ('inclined towards increasing levels'), it could potentially indicate emergent development toward secondary affectiveness which necessitates further evaluation.\","
+    },
+    "patient_factors_summary": {
+      "primary_diagnosis": "unknown",
+      "dsm5_category": "unknown",
+      "severity": "unknown",
+      "suicide_ideation": false,
+      "substance_use": {},
+      "social_isolation_risk": false
+    },
+    "scenarios": [
+      {
+        "scenario_id": "A",
+        "branch_type": "clinical_deterioration",
+        "branch_label": "Psychiatric / Clinical Deterioration Pathway",
+        "triggering_factors": {
+          "factor": "[MAJOR SYMPTOMS OF CHRONE]: Patients presentations include significant increase in irritability ('agitated'), decreases attention span leading towards difficulties managing daily tasks."
+        },
+        "causal_chain": {
+          "step": 1,
+          "event": "Increased agitation due to chronone symptoms.",
+          "mechanism": "'Aggressive behavior', 'Anxiety level increased'. Chronic sleep disturbance may lead patients experiennce heightened stress responses which manifest physiologialy through elevated cortisol levels causing anxieties such an insomniac episodes could exacerbates cognitive impairments like reduced concentration spans contributing further distresses via feedback loop of worsening sleeps quality affectin more daytime functionality issues; all within contextually consistent framework given limited initial info provided herewith without speculating beyond scope"
+        },
+        "scenario": {
+          "narrative": "**Scenario Analysis**\n\n*Patient State Summary Based On Available Data With Low Plausibilty Due To Insufficient Information.* Given only major somatization features related primarily from nonverbal expressions indicative but unquantifiable behaviors associated typically seen during severe illness phases rather than direct documentation suggesting acute pscyhological conditions at hand\u2014these observations alone lack sufficient detail required under strict guidelines stipulated above hence rendering any detailed prognostics highly conjectural sans supplementary verificationable metrics pertinent specifically concerning neurologico\u2013behavioral function alterities characteristic hallmarked predominantly amongst documented cases pertainant explicitly delving into nuanced diagnostic criteria enshri",
+          "warning_signs": [],
+          "crisis_endpoint": "Not identified",
+          "preparedness_actions": [],
+          "plausibility": "unknown",
+          "plausibility_rationale": "",
+          "mental_health_relevance": "unknown",
+          "mh_relevance_note": ""
+        }
+      },
+      {
+        "scenario_id": "B",
+        "branch_type": "substance_escalation",
+        "branch_label": "Substance Use Escalation Pathway",
+        "triggering_factors": {
+          "factor": "[MAJOR HOSPITE OF CHRONE]: Patients present significant functional declines such an increase adherence issues."
+        },
+        "causal_chain": {
+          "step": 1,
+          "event": "Increased nonadherence due primarily related chronic hospitalization."
+        },
+        "scenario": {
+          "narrative": "**Scenario Analysis**\n\n*Patient State Description Based On Available Data Point Extraction From Incomplete Records With Hypothetical Context Considerations Given Trigger Factors And Chronicity Of Hospital Admission Issues.*\\n{\\\"pat_state\\\": \\\"The hypothesized situation involves prolonged periods spent within institutional care settings leading potentially towards dependency syndromatics associated behavior patterns.\\\",\\\"triggerFactorContextConsideraionForChronicityOfAdmissionsAndNoncomplianceWithTherapeutiesOrInterventions:\\\"\\\"}*\\nnarrative:\"Given limited but critical insights from our records indicating frequent admittances correlated strongly alongside documented instances suggesting difficulty maintain complying thresholds prescribed during prior treatments\u2014the likelihood emerges concer",
+          "warning_signs": [],
+          "crisis_endpoint": "Not identified",
+          "preparedness_actions": [],
+          "plausibility": "unknown",
+          "plausibility_rationale": "",
+          "mental_health_relevance": "unknown",
+          "mh_relevance_note": ""
+        }
+      },
+      {
+        "scenario_id": "C",
+        "branch_type": "social_environmental_collapse",
+        "branch_label": "Social / Environmental Collapse Pathway",
+        "triggering_factors": {
+          "factor": "[Referenced Patients Refusing To Answer Questionnaire Due Partial Cooperativeness And Implicit Indications Of Withdrawals.] "
+        },
+        "causal_chain": {
+          "step": 1,
+          "event": "Increased social isolation due to refusal of questionnaires.",
+          "mechanisms": [
+            "Social withdrawal leading potentially increased feelings of loneliness"
+          ]
+        },
+        "scenario": {
+          "narrative": "**Scenario Analysis**    \n*Patient State & Trigger Considered Non Psychiatry Primary Condition - Low Directness.*     \nGiven limited initial details but considering non PSCHIA TRACK conditions primarily affective processes indirect ways such through chronicity impact which may exacerbates preexisting subclincal symptoms like anxiety around compliance issues; hence we proceed under assumption it has moderately elevated baseline stressors related possibly enhancing vulnerability towards further distress from environmental challenges without direct causality toward severe pathological states within given context hereby ruling our focus strictly onto secondary implications pertainable specifically via psychoemotional domains while maintainingly respectful boundary against overextension into sp",
+          "warning_signs": [],
+          "crisis_endpoint": "Not identified",
+          "preparedness_actions": [],
+          "plausibility": "unknown",
+          "plausibility_rationale": "",
+          "mental_health_relevance": "unknown",
+          "mh_relevance_note": ""
+        }
+      }
+    ]
+  },
+  "phase3_report": {
+    "patient_overview": "## Patient Overview:   \nA female admitted under service 'PSY' due mainly concerns over her behavior characterized by heightened irritability without known prior severe medical issues such as choreic movements mentioned historically; however detailed background remains unclear given missing personal identifiers within records at hand which precludes full assessment based solenely upon presented symptoms like decreasing body mass index potentially indicatory towards malnutritional states secondary complicating potential underlying disorders including those affectin g both physical wellbeingt oand psychehealthtill now unidentified through standard diagnostic processes owningto insufficiencyofpatientshipprofiledataforcomprehensivereasonablenessoftreatediscussionsincaseconcernshavinghereditaryimplicationsofsuchconditionsaschoriaticdisorderwhichmayhaveoverlookedsympthomayaffectbothphysicalexpressionandsemanticcommunicativenesswithpotentialsevereoutcomesifleftunaddressedeffectivelybycliniansteamconsideringenotonlytheimmediatepresentationalsymptofterminoshowcaseindirectsignalsomeunderlyingcomplexityneedingfurtherexplorationthroughmoreextendedevaluatioprocesssincludinggeneticassayswhereappropriateneclearerdefinitioncanbetraditionallyachievedviafamilyhistoryrecordsthatcurrentdocumentscantprovidedue todetailemntredactiononpersonaldataeaccuracyissuespresentsurrogatesignificancesummarizingdifferentlyfrominitialpresentationwithoutfullcontextualbackgroundinformationavailablethereforecautionadoptsurequiringadditivedeploymentspecificelementstrategytowidenourperspectivesontopathologyengagementbaseduponsgatheredaightfulsetbackdatainthisinstancewhileacknoewhatspecificpathologicaldiagnosesremainsundefinedaccordingtothereferencepointstocompletenearlierexaminatonormalcyclesnotfullyreportedlyexecutedresultantlylimitingprecisionarounddefinitiverelativelyhighriskprognosticsituasionrelatedtopsiatruefactoredynamicthroughuncertainplausbilityassociativitybetweenobservedmanifestattitudenormaltwit",
+    "mental_health_status": "",
+    "key_risk_factors": [],
+    "protective_factors": [],
+    "scenario_briefing": "",
+    "priority_actions": [],
+    "overall_risk_tier": "UNKNOWN",
+    "risk_tier_justification": "",
+    "_raw_text": "## Patient Overview:   \nA female admitted under service 'PSY' due mainly concerns over her behavior characterized by heightened irritability without known prior severe medical issues such as choreic movements mentioned historically; however detailed background remains unclear given missing personal identifiers within records at hand which precludes full assessment based solenely upon presented symptoms like decreasing body mass index potentially indicatory towards malnutritional states secondary complicating potential underlying disorders including those affectin g both physical wellbeingt oand psychehealthtill now unidentified through standard diagnostic processes owningto insufficiencyofpatientshipprofiledataforcomprehensivereasonablenessoftreatediscussionsincaseconcernshavinghereditaryimplicationsofsuchconditionsaschoriaticdisorderwhichmayhaveoverlookedsympthomayaffectbothphysicalexpressionandsemanticcommunicativenesswithpotentialsevereoutcomesifleftunaddressedeffectivelybycliniansteamconsideringenotonlytheimmediatepresentationalsymptofterminoshowcaseindirectsignalsomeunderlyingcomplexityneedingfurtherexplorationthroughmoreextendedevaluatioprocesssincludinggeneticassayswhereappropriateneclearerdefinitioncanbetraditionallyachievedviafamilyhistoryrecordsthatcurrentdocumentscantprovidedue todetailemntredactiononpersonaldataeaccuracyissuespresentsurrogatesignificancesummarizingdifferentlyfrominitialpresentationwithoutfullcontextualbackgroundinformationavailablethereforecautionadoptsurequiringadditivedeploymentspecificelementstrategytowidenourperspectivesontopathologyengagementbaseduponsgatheredaightfulsetbackdatainthisinstancewhileacknoewhatspecificpathologicaldiagnosesremainsundefinedaccordingtothereferencepointstocompletenearlierexaminatonormalcyclesnotfullyreportedlyexecutedresultantlylimitingprecisionarounddefinitiverelativelyhighriskprognosticsituasionrelatedtopsiatruefactoredynamicthroughuncertainplausbilityassociativitybetweenobservedmanifestattitudenormaltwitchildrenlikeaggressiondeviantinvolvementamongothernonstandardexpressionalformatscommunicatablebynegligiblecooperativesubsequentiallyleadingtodifficultievaluatinortheseobservablesinthematypiquebeyondgeneralmenteacceptablestrengtheneededfortargettedinvestigatorialapproachesdesignedtoreduceambiguitiesencountertinghisuniquecasescenarioanalysisdemarcateretoensureadequaciesatisfiedtreamentplandevelopmentprocessionallimititediractuallybecausecriticaledocumentrestrictivenesshinderscleardermatificationrequiredorientertotheoptimalcareprotocolimplementationtargetethisspecialisedpopulationgroupwhosewelldefinedcharacteristicsrequiremeticuloushandlingregardlessthaneverthelessimportantnoteaboutlimitedavailabilitiesourcecontainedinsideoriginalrecordextractaintolistanynewfounddetailsnecessarilyimperceptiblereadjustementsmadepertaininglyadaptionintocompliancedraftformatusedaboveallowinfollowinstrucitonedguidelineprincipleswhenpossibleelsewiseemphasisshifttonavigatelastresortoptionspossiblyincluderingext"
+  },
+  "subject_id": "11399055",
+  "hadm_id": "25710274"
+}
