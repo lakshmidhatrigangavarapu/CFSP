@@ -1,0 +1,93 @@
+{
+  "_description": "ICD code to disease category mapping for post-extraction validation. Maps ICD-10 code prefixes to disease categories and correct DSM-5 categories.",
+  "movement_disorders": {
+    "codes": ["G25", "G10", "G20", "G21", "G23", "G24", "G26"],
+    "disease_category": "neurodegenerative",
+    "correct_dsm5": "neurocognitive_disorders",
+    "note": "Movement disorders (Huntington's G10, Parkinson's G20, Chorea G25) are neurodegenerative, NOT neurodevelopmental",
+    "specific": {
+      "G10": {"title": "Huntington's Disease", "progression": "progressive"},
+      "G20": {"title": "Parkinson's Disease", "progression": "progressive"},
+      "G25.1": {"title": "Drug-induced tremor", "progression": "chronic_stable"},
+      "G25.4": {"title": "Drug-induced chorea", "progression": "chronic_stable"},
+      "G25.5": {"title": "Other chorea", "note": "If Huntington's, reclassify to G10"}
+    }
+  },
+  "dementia": {
+    "codes": ["F01", "F02", "F03", "G30", "G31"],
+    "disease_category": "neurodegenerative",
+    "correct_dsm5": "neurocognitive_disorders",
+    "note": "Dementias and Alzheimer's are neurodegenerative/neurocognitive",
+    "specific": {
+      "G30": {"title": "Alzheimer's Disease", "progression": "progressive"},
+      "G31.0": {"title": "Frontotemporal Dementia", "progression": "progressive"},
+      "G31.83": {"title": "Lewy Body Dementia", "progression": "progressive"}
+    }
+  },
+  "mood_secondary_to_medical": {
+    "codes": ["F06.3", "F06.30", "F06.31", "F06.32", "F06.33", "F06.34"],
+    "disease_category": "psychiatric_secondary_to_medical",
+    "correct_dsm5": "mood_disorder_due_to_medical_condition",
+    "note": "Mood disorder due to known physiological condition"
+  },
+  "psychotic_secondary_to_medical": {
+    "codes": ["F06.0", "F06.1", "F06.2"],
+    "disease_category": "psychiatric_secondary_to_medical",
+    "correct_dsm5": "schizophrenia_psychotic",
+    "note": "Psychotic disorder due to known physiological condition"
+  },
+  "neurodevelopmental": {
+    "codes": ["F70", "F71", "F72", "F73", "F78", "F79", "F80", "F81", "F82", "F84", "F88", "F89", "F90", "F91", "F93", "F94", "F95", "F98"],
+    "disease_category": "psychiatric_primary",
+    "correct_dsm5": "neurodevelopmental_disorders",
+    "note": "TRUE neurodevelopmental disorders: intellectual disability, autism, ADHD, learning disorders, tic disorders"
+  },
+  "depressive": {
+    "codes": ["F32", "F33", "F34"],
+    "disease_category": "psychiatric_primary",
+    "correct_dsm5": "depressive_disorders"
+  },
+  "bipolar": {
+    "codes": ["F30", "F31"],
+    "disease_category": "psychiatric_primary",
+    "correct_dsm5": "bipolar_disorders"
+  },
+  "anxiety": {
+    "codes": ["F40", "F41", "F42", "F43", "F44", "F45", "F48"],
+    "disease_category": "psychiatric_primary",
+    "correct_dsm5": "anxiety_disorders"
+  },
+  "schizophrenia_psychotic": {
+    "codes": ["F20", "F21", "F22", "F23", "F24", "F25", "F28", "F29"],
+    "disease_category": "psychiatric_primary",
+    "correct_dsm5": "schizophrenia_psychotic"
+  },
+  "substance_use": {
+    "codes": ["F10", "F11", "F12", "F13", "F14", "F15", "F16", "F17", "F18", "F19"],
+    "disease_category": "psychiatric_primary",
+    "correct_dsm5": "substance_use_disorders"
+  },
+  "personality": {
+    "codes": ["F60", "F61", "F62", "F63", "F64", "F65", "F66", "F68", "F69"],
+    "disease_category": "psychiatric_primary",
+    "correct_dsm5": "personality_disorders"
+  },
+  "_keyword_to_icd": {
+    "huntington": "G10",
+    "huntingtons": "G10",
+    "parkinson": "G20",
+    "parkinsons": "G20",
+    "alzheimer": "G30",
+    "alzheimers": "G30",
+    "lewy body": "G31.83",
+    "frontotemporal dementia": "G31.0",
+    "chorea": "G25.5",
+    "dementia": "F03",
+    "major depression": "F33",
+    "bipolar": "F31",
+    "schizophrenia": "F20",
+    "ptsd": "F43.10",
+    "opioid use": "F11",
+    "alcohol use": "F10"
+  }
+}
