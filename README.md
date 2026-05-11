@@ -9,7 +9,7 @@ Application Interface:
 
 Results generated:
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/5f15c310-d93b-42e1-8d31-72550768ce3b" />
-Path of the generated pdf :
+Path of the generated pdf : CFSP/input-output/report_v4_ui_ui.pdf
 
 ## Overview
 
