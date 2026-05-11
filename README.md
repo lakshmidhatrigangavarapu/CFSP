@@ -2,6 +2,15 @@
 
 **Counterfactual Simulation of Extreme Mental Health Scenarios for Clinical Preparedness via Fine-Tuned LLMs and Explainable AI**
 
+**Counterfactual Extreme Mental Health Scenario Simulator Interface**
+
+Application Interface:
+<img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/728627a0-6e7e-4766-9491-faefb09f822d" />
+
+Results generated:
+<img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/5f15c310-d93b-42e1-8d31-72550768ce3b" />
+Path of the generated pdf :
+
 ## Overview
 
 A counterfactual scenario simulator for mental health analysis that generates possible extreme future scenarios using the current patient state via fine-tuned LLMs, with an XAI layer built on top – designed for clinical preparedness and psychology education.
