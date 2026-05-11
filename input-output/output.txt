@@ -1,118 +1,137 @@
 ========================================================================
-  CLINICAL PREPAREDNESS REPORT
-  Generated: 2026-04-11 10:00:59
+  CLINICAL PREPAREDNESS REPORT (V4)
+  Generated: 2026-05-11 06:37:04
 ========================================================================
-  Primary Dx: Chorea (G25.1)
-  DSM-5 Category: neurodevelopmental_disorders
-  Severity: unknown
-  Overall MH Risk: UNKNOWN
+  Primary Dx: Mood Disorder secondary to General Medical Condition (F06.3)
+  DSM-5 Category: mood_disorder_due_to_medical_condition
+  Disease Category: psychiatric_secondary_to_medical
+  Progression: chronic_stable
+  Severity: severe
+  Overall MH Risk: HIGH
 ========================================================================
+
+  ⚠️  CRITICAL SAFETY ALERTS
+----------------------------------------
+  ⚠️ SUICIDE/SELF-HARM SIGNAL: 'jump out' — ...nt with medications or following up with outpatient treators. She threatened to jump out her 10 story window if the took her to one of her outpatient treators. Her boyf...
+  ⚠️ SUICIDE/SELF-HARM SIGNAL: 'self-injury' — ...s and treatment: none Medication and ECT trials: Risperdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexua...
+  ⚠️ VIOLENCE SIGNAL: 'aggression' — ...] year old woman with [REDACTED] Disease who presented to the ED for worsening aggression, irritability, impulsivity, refusal to take medication and difficulty caring...
+  ⚠️ VIOLENCE SIGNAL: 'aggression' — ...as pleasant and cooperative and did not show any irritability, impulsivity or aggression. She is being discharged to an assisted living facility that specializes in pa...
+  ⚠️ VIOLENCE SIGNAL: 'aggression' — ...d some prn Risperdal in the event that she has experiences future episodes of aggression/instability. We also reduced her risk of harm to self/others, by d/c'ing Ms....
+
+  ℹ️  NEGATED SIGNALS (context noted, not active alerts)
+----------------------------------------
+  [NEGATED] violence: 'violence' — ...rge. RISK ASSESSMENT Ms. [REDACTED] has a low risk of imminent harm/aggression/violence. She has been calm and in very good behavioral control throughout the entiri...
+  [NEGATED] violence: 'aggression' — ...her discharge. RISK ASSESSMENT Ms. [REDACTED] has a low risk of imminent harm/aggression/violence. She has been calm and in very good behavioral control throughout t...
+  [NEGATED] violence: 'weapons' — ...erdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexually mollested in childhood, saw a psychiatrist P...
+
 
 1. PATIENT OVERVIEW
 ----------------------------------------
-The patient is a female with a primary diagnosis of Chorea, a neurodevelopmental disorder. She was admitted due to increased agitation, impulsivity, and difficulty caring for herself, as reported by her family. Key features include involuntary, dance-like movements and a lack of psychiatric history.
+The patient is a female with a primary diagnosis of mood disorder secondary to General Medical Condition, specifically Chorea. She was admitted due to increased agitation, impulsivity, and difficulty caring for herself. Key features include chronic stable progression of her mood disorder, significant weight loss, and functional decline.
 
 2. MENTAL HEALTH STATUS
 ----------------------------------------
-While Chorea is primarily a neurodevelopmental disorder, the patient's current symptoms of agitation and impulsivity are concerning and relevant to mental health. These symptoms could indicate an underlying or emerging psychiatric condition, such as a mood or anxiety disorder, which could be exacerbated by her neurodevelopmental disorder.
+The patient's current mental health state is characterized by moderate suicidal ideation and aggression, with a high relevance to mental health due to her mood disorder being secondary to a medical condition. There is no known psychiatric history, indicating this is a new onset or secondary psychiatric condition.
 
 3. KEY RISK FACTORS
 ----------------------------------------
-  • Increased agitation and impulsivity
-  • Social isolation due to prolonged absence from the outside world
-  • Lack of psychiatric history, which may mask or delay recognition of psychiatric comorbidities
+  • Chronic stable progression of mood disorder
+  • Suicidal ideation with a moderate risk level
+  • Aggression with a moderate risk level
+  • Imminent homelessness and housing loss
+  • Functional decline and significant weight loss
 
 4. PROTECTIVE FACTORS
 ----------------------------------------
-  • Normal blood WBC count, indicating no current infection or inflammation
-  • No active substance use, reducing the risk of substance-related complications
+  • No active substance use
+  • Cooperation with psychiatric evaluation
+  • Prescribed psychotropic medication (Risperdal)
+  • Social services involvement to address housing crisis
 
 5. COUNTERFACTUAL SCENARIO BRIEFING
 ----------------------------------------
-1. Psychiatric / Clinical Deterioration Pathway
-Plausibility: Unknown, but high relevance due to current symptoms.
-Key concern: Worsening of neurodevelopmental symptoms leading to severe neglect of personal care.
-Top action: Conduct a thorough medication adherence assessment and consider adjusting the treatment plan if necessary; Implement a structured daily routine with support from a mental health professional to manage agitation and impulsivity.
-
-2. Substance Use Escalation Pathway
-Plausibility: Unknown, but high relevance due to increased agitation and impulsivity.
-Key concern: Development of a severe substance use disorder, exacerbating neurodevelopmental condition.
-Top action: Conduct a thorough assessment of the patient's current mental health status and risk factors for substance use; Develop a comprehensive, multidisciplinary treatment plan that includes regular monitoring of neurodevelopmental symptoms and substance use behaviors.
-
-3. Social / Environmental Collapse Pathway
-Plausibility: Unknown, but high relevance due to prolonged social isolation.
-Key concern: Significant decline in mental health, with depressive symptoms becoming severe, leading to functional impairment.
-Top action: Schedule regular psychiatric evaluations to monitor mental health status; Implement a structured daily routine to provide a sense of normalcy and stability; Engage the patient in telehealth therapy sessions to reduce feelings of isolation.
+- Psychiatric / Clinical Deterioration Pathway: Plausibility unknown, high concern for severe decompensation due to medical condition and social instability. Action: Arrange for a comprehensive geriatric assessment and coordinate with social services.
+- Substance Use Escalation Pathway: NOT APPLICABLE, low relevance due to no evidence of substance use.
+- Social / Environmental Collapse Pathway: Plausibility unknown, high concern for psychotic break due to imminent homelessness. Action: Secure temporary or permanent housing and enhance medication management strategies.
 
   --- Detailed Scenario Data ---
 
   [A] Psychiatric / Clinical Deterioration Pathway
-    Narrative: The patient with Chorea (ICD: G25.1, DSM-5: neurodevelopmental_disorders) is exhibiting increased agitation and impulsivity, which are concerning symptoms that could indicate a worsening of their underlying condition. This escalation in symptoms may lead to a neglect of personal hygiene and basic self-care, potentially resulting in secondary health complications such as skin infections, malnutrition, or dehydration. The lack of identified comorbid mental health diagnoses and no active suicidal i
-    Crisis Endpoint: The patient may experience severe neglect of personal care, leading to life-threatening secondary health complications such as severe malnutrition, dehydration, or untreated infections.
-    Plausibility: unknown
-    MH Relevance: unknown — The mental health relevance is high due to the direct impact of the patient's neurodevelopmental disorder on their daily functioning and the potential for secondary health complications. The current symptoms of agitation and impulsivity are evidence-based psychiatric concerns that are directly tied to the patient's mental health condition and require immediate attention to prevent negative outcomes.
-    Warning Signs:
-      - Decline in personal hygiene and self-care
-      - Increased agitation and impulsivity
-      - Unknown medication adherence
-      - Development of secondary health complications (e.g., skin infections, malnutrition)
-      - Changes in social functioning or increased isolation
-    Preparedness Actions:
-      - Conduct a thorough medication adherence assessment and consider adjusting the treatment plan if necessary.
-      - Implement a structured daily routine with support from a mental health professional to manage agitation and impulsivity.
-      - Arrange for home health services to assist with personal hygiene and basic self-care.
-      - Schedule regular follow-up appointments to monitor the patient's mental and physical health status.
-      - Educate the patient and family about the importance of self-care and signs of secondary health complications.
-
-  [B] Substance Use Escalation Pathway
-    Narrative: The patient with Chorea, characterized by involuntary, dance-like movements, is currently experiencing increased agitation and impulsivity. These symptoms may exacerbate her neurodevelopmental disorder, potentially leading to a deterioration in her ability to cope with daily stressors. Without appropriate intervention, the patient might seek alternative, maladaptive coping mechanisms, such as substance use, to manage her symptoms. This escalation could result in a pattern of substance abuse, fur
-    Crisis Endpoint: The patient may develop a severe substance use disorder, which could significantly worsen her neurodevelopmental condition, leading to a chronic pattern of impaired functioning, increased healthcare costs, and potential legal and social consequences.
-    Plausibility: unknown
-    MH Relevance: unknown — The mental health relevance is high due to the direct impact of the patient's neurodevelopmental disorder on
-    Warning Signs:
-      - A noticeable increase in impulsive decision-making or actions
-      - Verbal or non-verbal expressions of using substances to self-medicate or escape symptoms
-      - Deterioration in personal hygiene or self-care routines
-      - Withdrawal from previously enjoyed activities or social interactions
-      - Observable signs of intoxication or withdrawal symptoms
-    Preparedness Actions:
-      - Conduct a thorough assessment of the patient's current mental health status and risk factors for substance use
-      - Develop a comprehensive, multidisciplinary treatment plan that includes regular monitoring of neurodevelopmental symptoms and substance use behaviors
-      - Provide psychoeducation to the patient and her support network about the risks of substance use and the importance of adherence to treatment
-      - Engage in regular, structured follow-up appointments to monitor progress and adjust treatment as necessary
-      - Consider involving a mental health professional with expertise in substance use disorders to collaborate on the patient's care
-
-  [C] Social / Environmental Collapse Pathway
-    Narrative: The patient with Chorea, a neurodevelopmental disorder characterized by involuntary, irregular movements, has been experiencing prolonged social isolation due to not leaving the house for over a year. This isolation has led to increased feelings of loneliness and has potentially exacerbated the patient's Chorea symptoms. The lack of social interaction may also contribute to the development of depressive symptoms, which can further complicate the management of Chorea. The patient's medication adh
-    Crisis Endpoint: The patient may experience a significant decline in mental health, with depressive symptoms becoming severe, leading to a functional impairment that could require more intensive psychiatric intervention or even hospitalization.
-    Plausibility: unknown — The patient's prolonged social isolation is a well-documented risk factor for the development of depressive symptoms, particularly in individuals with neurodevelopmental disorders like Chorea. Given the current lack of social interaction and the potential for worsening symptoms, it is plausible that the patient could experience a significant decline in mental health.
+    Narrative: The patient, with a primary diagnosis of a mood disorder secondary to an unspecified advanced undisclosed disease, is at significant risk for exacerbation of her mood symptoms due to the progression of her underlying medical condition. Given her recent history of significant weight loss, ataxic gait, and monosyllabic speech, there is concern for a progressive neurodegenerative process that could further impair her cognitive and functional abilities. The imminent risk of homelessness and the trau
+    Crisis Endpoint: The patient could experience a severe decompensation, leading to acute psychiatric crisis, severe functional impairment, and potential hospitalization due to a combination of her deteriorating medical condition, psychiatric symptoms, and social instability.
+    Plausibility: high - The high plausibility rating is based on the direct correlation between her chronic mood disorder, which is secondary to a general medical condition, and the exacerbation of her psychiatric symptoms due to the progression of her underlying medical condition. Additionally, her social and functional instability further increase the likelihood of a negative outcome.
 
 MH RELEVANCE: high
-    MH Relevance: unknown — The mental health relevance is high due to the direct impact of social isolation on the patient's mental health, particularly in the context of a neurodevelopmental disorder like Chorea. The risk of developing depressive symptoms and the exacerbation of Chorea symptoms are both significant concerns that require proactive monitoring and intervention.
+The mental health relevance is high due to the direct impact of her chronic mood disorder on her psychiatric well-being, which is closely tied to her general medical condition. The imminent housing crisis, functional decline, and trauma history all contribute to her ongoing mental health challenges and the potential for severe psychiatric decompensation.
+    MH Relevance: unknown
     Warning Signs:
-      - Increased frequency and severity of Chorea symptoms
-      - Expressions of hopelessness or helplessness
-      - Withdrawal from previously enjoyed activities
-      - Changes in sleep patterns (insomnia or hypersomnia)
-      - Decline in cognitive function or attention span
+      - Increased mood instability and episodes of aggression or impulsivity
+      - Further decline in self-care abilities and functional independence
+      - Worsening of ataxic gait and speech latency
+      - Significant weight loss or further emaciation
+      - Expressions of hopelessness or helplessness regarding her housing and health situation
     Preparedness Actions:
-      - Schedule regular psychiatric evaluations to monitor mental health status
-      - Implement a structured daily routine to provide a sense of normalcy and stability
-      - Engage the patient in telehealth therapy sessions to reduce feelings of isolation
-      - Involve a social worker to explore community resources and support systems
-      - Educate the patient and family about the importance of medication adherence and potential side effects
+      - Arrange for a comprehensive geriatric assessment to evaluate her functional, cognitive, and psychiatric status
+      - Coordinate with social services to address her housing crisis and provide supportive resources
+      - Initiate a psychiatric consultation to optimize her mental health management, considering the potential need for medication adjustments or additional therapies
+      - Develop a safety plan that includes regular follow-up appointments, emergency contact information, and clear instructions for crisis intervention
+      - Explore the possibility of a more supportive living environment, such as a specialized assisted living facility with psychiatric support services
+
+  [B] Substance Use Escalation Pathway
+    STATUS: NOT APPLICABLE
+    Reason: NOT APPLICABLE — No substance use evidence. Data: alcohol=none, drugs=none, tox_screen=negative. All toxicology screens negative. Generating a substance abuse scenario would be clinically unfounded.
+
+  [C] Social / Environmental Collapse Pathway
+    Narrative: The patient, currently homeless and facing imminent homelessness due to the auctioning off of her apartment, is at a severe risk of experieningly exacerbated mental health symptoms. The chronic instability of her living situation, coupled with her pre-existing mood disorder secondary to a general medical condition (specifically, Chorea), could lead to a significant deterioration in her mental health. Without stable housing, the patient may experience heightened levels of stress, anxiety, and dep
+    Crisis Endpoint: The patient may experience a severe psychotic break, characterized by intense mood swings, hallucinations, or delusions, potentially leading to self-harm or aggression towards others. This could result in hospitalization, injury, or even fatality if not promptly addressed.
+    Plausibility: high
+    MH Relevance: unknown - The mental health relevance is high because the patient's current clinical state and environmental stressors directly impact her psychiatric condition. The housing crisis, in particular, is a significant source of stress that can exacerbate her mood disorder and potentially trigger more severe psychiatric symptoms. Additionally, her neurodegenerative condition and history of aggression and suicidal ideation further elevate the urgency of addressing her mental health needs.<|assistant|> NARRATIVE:
+The patient's situation is precarious, with her impending homelessness acting as a catalyst for a potential mental health crisis. The chronic instability of her living situation, combined with her pre-existing mood disorder secondary to Chorea, sets the stage for a significant deterioration in her mental health. The loss of a stable home environment can lead to increased feelings of vulnerability, isolation, and hopelessness, which may trigger or worsen her mood disorder symptoms. The patient's history of aggression and suicidal ideation, particularly in relation to medication adherence, underscores the urgency of addressing her mental health needs. Without intervention, the patient is at risk of experiencing severe mood swings, psychosis, and aggression, which could have devastating consequences for her well-being and safety.
+    Warning Signs:
+      - Increased reports of anxiety, depression, or psychosis
+      - Escalation of aggressive or self-harming behavior, particularly in relation to medication adherence
+      - Worsening of neurodegenerative symptoms, such as ataxic gait or monosyllabic speech
+      - Further weight loss or significant changes in eating patterns
+      - Deterioration in self-care abilities, such as increased dependence on others for basic needs
+    Preparedness Actions:
+      - Immediately secure temporary or permanent housing for the patient to provide stability and reduce stressors
+      - Enhance medication management strategies, including the use of long-acting injectables, adherence-promoting measures, and regular monitoring
+      - Increase frequency of mental health assessments and monitoring, possibly involving a case manager or social worker to coordinate care
+      - Develop a comprehensive safety plan with the patient, including clear instructions on what to do in case of escalating symptoms or aggression
+      - Engage with community resources, such as homeless outreach programs, support groups, and mental health services, to provide additional support and resources
 
 6. PRIORITY PREPAREDNESS ACTIONS
 ----------------------------------------
-  1. Implement a structured daily routine with support from a mental health professional to manage agitation and impulsivity.
-  2. Conduct a thorough medication adherence assessment and consider adjusting the treatment plan if necessary.
-  3. Schedule regular psychiatric evaluations to monitor mental health status.
-  4. Develop a comprehensive, multidisciplinary treatment plan that includes regular monitoring of neurodevelopmental symptoms and substance use behaviors.
-  5. Engage the patient in telehealth therapy sessions to reduce feelings of isolation.
+  1. Coordinate with social services to secure stable housing for the patient.
+  2. Arrange for a comprehensive geriatric assessment to evaluate functional, cognitive, and psychiatric status.
+  3. Initiate a psychiatric consultation to optimize mental health management.
+  4. Implement medication management strategies, including the use of long-acting injectables.
+  5. Increase frequency of mental health assessments and monitoring, possibly involving a case manager or social worker to coordinate care.
   6. RISK TIER: HIGH
 
-7. OVERALL RISK TIER: UNKNOWN
-   The patient's current symptoms of agitation and impulsivity, coupled with her neurodevelopmental disorder, present a high risk for psychiatric deterioration, substance use escalation, and social/environmental collapse. These pathways could lead to severe neglect of personal care, development of a severe substance use disorder, and significant decline in mental health, respectively. Immediate action is required to mitigate these risks and support the patient's mental health and well-being.
+7. OVERALL RISK TIER: HIGH
+   The patient's risk is rated as high due to the combination of her chronic mood disorder secondary to a medical condition, imminent homelessness, and moderate suicidal and aggressive behaviors. These factors significantly increase her vulnerability to mental health crises and functional decline. [OVERRIDE: Risk tier elevated to HIGH due to critical safety signals detected in clinical note: CRITICAL SIGNALS DETECTED: suicide (1 signal), violence (3 signals), self_harm (1 signal). Risk override: HIGH.]
+
+8. VALIDATION & ENRICHMENT LOG
+----------------------------------------
+   • [NORM] ICD validation: dsm5_category 'neurodevelopmental_disorders' → 'neurocognitive_disorders' (ICD G25.1 maps to movement_disorders)
+   • [NORM] ICD validation: disease_category 'unknown' → 'neurodegenerative'
+   • [NORM] ICD validation: progression 'unknown' → 'chronic_stable'
+   • [NORM] Added discharge_diagnoses: ['Mood disorder secondary to General Medical Condition', 'Advanced [REDACTED] Disease']
+   • [NORM] Discharge Dx reconciliation: Primary Dx 'Chorea' doesn't capture mood disorder. Discharge lists mood disorder secondary to medical condition.
+   • [NORM] Updated primary Dx to 'Mood Disorder secondary to GMC' (F06.3)
+   • [ENRICH] Housing crisis detected: homelessness, imminent homelessness, housing loss
+   • [ENRICH] Updated housing_status to 'homeless'
+   • [ENRICH] Trauma history detected: trauma/PTSD
+   • [ENRICH] Weight change detected: significant weight loss, thin/emaciated, thin/emaciated, thin/emaciated (30 lbs)
+   • [ENRICH] Functional decline detected: self-care difficulty, self-care difficulty, ataxic gait, monosyllabic speech, speech latency
+   • [ENRICH] Homebound duration: a year
+   • [ENRICH] Clinician prognosis: clinician prognosis statement, high future decompensation risk, progressive neurodegenerative condition, late-stage disease reference
+   • [CHECK] Risk tier override: 'UNKNOWN' → 'HIGH' (critical signals detected: CRITICAL SIGNALS DETECTED: suicide (1 signal), violence (3 signals), self_harm (1 signal). Risk override: HIGH.)
+   • [CHECK] Injected 5 priority alert(s) into report
+   • [CHECK] Severity inferred: 'unknown' → 'severe'
+   • [CHECK] Plausibility resolved for Psychiatric / Clinical Deterioration Pathway: 'unknown' → 'high'
+   • [CHECK] Plausibility resolved for Social / Environmental Collapse Pathway: 'unknown' → 'high'
 
 ========================================================================
   END OF REPORT
