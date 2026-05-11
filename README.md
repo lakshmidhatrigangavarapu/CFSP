@@ -141,3 +141,6 @@ If using this pipeline:
 ```
 Johnson, A., et al. (2023). MIMIC-IV (version 3.1). PhysioNet.
 ```
+## Disclaimer
+
+This tool is designed for clinical preparedness and educational purposes only. It is not intended as a diagnostic tool or replacement for professional clinical judgment. Always consult qualified mental health professionals for patient care decisions.
