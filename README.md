@@ -11,147 +11,133 @@ Results generated:
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/5f15c310-d93b-42e1-8d31-72550768ce3b" />
 Path of the generated pdf : CFSP/input-output/report_v4_ui_ui.pdf
 
+
+A safety-aware fine-tuned LLM framework that acts as a **second reader** of mental health documentation — not to predict outcomes, but to **prepare clinicians and psychology students** for extreme patient trajectories.
+
 ## Overview
 
-A counterfactual scenario simulator for mental health analysis that generates possible extreme future scenarios using the current patient state via fine-tuned LLMs, with an XAI layer built on top – designed for clinical preparedness and psychology education.
+The framework operates in three stages:
 
-### Key Features
-
-- **Clinical Factor Extraction**: Extracts structured risk and protective factors from unstructured clinical notes using DSM-5/ICD-11 grounded schemas
-- **Extreme Scenario Generation**: Generates counterfactual narratives of extreme adverse mental health trajectories
-- **Causal Explainability**: XAI layer providing causal pathway justifications and uncertainty estimates
-- **Second Reader Paradigm**: Acts as a consulting second opinion, not a final decision maker
-
-## Project Structure
-
-```
-├── full_pipeline/          # Pipeline v1 - Core implementation
-├── full_pipeline_v2/       # Pipeline v2 - Enhanced features
-├── full_pipeline_v3/       # Pipeline v3 - Optimizations
-├── full_pipeline_v4/       # Pipeline v4 - Latest version
-├── input-output/           # Sample input/output examples
-├── output_v2/              # Model outputs and results
-├── Paper/                  # Research paper and documentation
-├── scripts/                # Training and utility scripts
-├── training_data/          # Training datasets
-└── requirements.txt        # Python dependencies
-```
-
-## Requirements
-
-- Python 3.10+
-- PyTorch 2.2+
-- CUDA-compatible GPU (8x NVIDIA V100-32GB recommended for training)
-- 256GB+ system RAM for training
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/counterfactual-mental-health.git
-cd counterfactual-mental-health
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# or: venv\Scripts\activate  # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-```
+1. **Phase 1: Clinical Factor Extraction** — Extracts structured risk and protective factors from unstructured clinical notes using a DSM-5 and ICD-11 grounded schema
+2. **Phase 2: Extreme Scenario Generation** — Generates counterfactual narratives of extreme adverse mental health trajectories using Tree-of-Thoughts reasoning
+3. **Phase 3: Clinical Report with XAI** — Generates patient preparedness reports with causal pathway justifications and uncertainty estimates
 
 ## Quick Start
 
-### 1. Setup Environment
-```bash
-./scripts/setup_env.sh
-```
+### Training
 
-### 2. Run Training
 ```bash
+# 1. Setup environment
+./scripts/setup_env.sh
+
+# 2. Activate environment
+source dgx_env/bin/activate
+
+# 3. Launch training
 ./scripts/run_training.sh
 ```
 
-### 3. Run Inference Pipeline
+### Inference
+
 ```bash
-cd full_pipeline_v4
-python run.py --input your_clinical_notes.jsonl
+# Run the full pipeline on a clinical note
+source dgx_env/bin/activate
+python -m full_pipeline_v4 --input "path/to/clinical_note.txt"
+
+# Or use the Gradio web interface
+python full_pipeline_v4/app.py
 ```
 
-## Pipeline Versions
+## Package Structure
 
-| Version | Description |
-|---------|-------------|
-| v1 (`full_pipeline/`) | Initial implementation with core factor extraction |
-| v2 (`full_pipeline_v2/`) | Added scenario generation capabilities |
-| v3 (`full_pipeline_v3/`) | Performance optimizations |
-| v4 (`full_pipeline_v4/`) | Latest with XAI integration |
+```
+dgx_package/
+├── README.md                    # This file
+├── training_data/               # Training data
+│   ├── train.jsonl             # 94,592 training examples
+│   ├── val.jsonl               # Validation set
+│   ├── test.jsonl              # Test set
+│   └── extraction_schema.json  # DSM-5/ICD-11 grounded schema
+├── scripts/
+│   ├── setup_env.sh            # Environment setup
+│   ├── train_dgx.py            # Main training script
+│   └── run_training.sh         # Training launcher
+├── full_pipeline_v4/           # Inference pipeline
+│   ├── app.py                  # Gradio web interface
+│   ├── run.py                  # CLI runner
+│   ├── pipeline.py             # Main pipeline orchestrator
+│   ├── silver_label_extractor.py  # Phase 1: Factor extraction
+│   ├── scenario_generator.py   # Phase 2: ToT scenario generation
+│   ├── report_generator.py     # Phase 3: Clinical report
+│   ├── evidence_attribution.py # XAI layer
+│   └── config.py               # Pipeline configuration
+├── output_v2/                  # Trained model checkpoints
+│   ├── best_model/             # Best checkpoint (by eval loss)
+│   └── latest_model/           # Final checkpoint
+└── clearml_experiment_data/    # Training experiment logs
+```
 
 ## Training Configuration
 
-| Parameter | Value |
-|-----------|-------|
-| Base Model | BioMistral/BioMistral-7B |
-| Precision | FP16 |
-| Per-GPU Batch | 8 |
-| Gradient Accumulation | 2 |
-| Sequence Length | 2048 |
-| LoRA Rank | 64 |
-| Epochs | 3 |
-| Learning Rate | 2e-4 |
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Base Model | microsoft/Phi-3.5-mini-instruct | 3.8B parameters |
+| Fine-tuning | LoRA (rank 32) | Parameter-efficient |
+| Sequence Length | 2048 | Full context window |
+| Epochs | 5 | Full training |
+| Effective Batch Size | 64 | Multi-GPU distributed |
+| Training Time | ~35 hours | 4x V100 GPUs |
+| Training Samples | 94,592 | MIMIC-IV derived |
 
-## Components
+## Inference Pipeline
 
-### Clinical Factor Extraction
-Extracts structured clinical factors from unstructured mental health notes:
-- Risk factors
-- Protective factors
-- Current symptoms
-- Historical patterns
+### Generation Parameters
 
-### Extreme Scenario Generation
-Generates counterfactual narratives targeting boundary conditions:
-- Worst-case trajectory projection
-- Multiple scenario pathways
-- Clinically grounded outputs
+| Phase | Max Tokens | Temperature | Purpose |
+|-------|------------|-------------|---------|
+| Phase 1 | 1536 | 0.0 | Deterministic extraction |
+| Phase 2 Step 1 | 512 | 0.3 | Trigger identification |
+| Phase 2 Step 2 | 512 | 0.3 | Causal chain reasoning |
+| Phase 2 Step 3 | 1280 | 0.3 | Scenario narrative |
+| Phase 3 | 2048 | 0.2 | Clinical report |
 
-### Causal Explainability (XAI)
-Provides interpretable explanations:
-- Causal pathway visualization
-- Factor contribution analysis
-- Confidence/uncertainty estimates
+### Scenario Branches
 
-## Evaluation
+The system generates three parallel scenario branches:
+- **Decompensation** — Psychiatric deterioration trajectory
+- **Crisis** — Acute crisis escalation trajectory  
+- **Recovery Failure** — Treatment non-response trajectory
+
+Branch gating skips irrelevant branches based on extracted clinical factors.
+
+## Monitoring
 
 ```bash
-python scripts/evaluate.py \
-    --model_path output/final_model \
-    --test_data training_data/test.jsonl \
-    --output_dir output/eval_results
+# Watch GPU utilization
+watch -n 1 nvidia-smi
+
+# View training logs
+tail -f output_v2/training.log
+
+# TensorBoard
+tensorboard --logdir output_v2/runs
 ```
 
-## Hardware Requirements
+## Troubleshooting
 
-### For Training
-- 8x NVIDIA V100-32GB GPUs (or equivalent)
-- NVLink interconnect (recommended)
-- 256GB+ system RAM
-- Fast NVMe storage
+### OOM Errors
+- Reduce batch size in training config
+- Gradient checkpointing is enabled by default
 
-### For Inference
-- 1x GPU with 16GB+ VRAM
-- 32GB system RAM
+### NCCL Errors
+```bash
+export NCCL_DEBUG=INFO
+export NCCL_IB_DISABLE=1
+```
 
-## License
+## Citation
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Disclaimer
-
-This tool is designed for clinical preparedness and educational purposes only. It is not intended as a diagnostic tool or replacement for professional clinical judgment. Always consult qualified mental health professionals for patient care decisions.
-
-## Acknowledgments
-
-- Built using HuggingFace Transformers
-- Fine-tuned on BioMistral-7B
-- Validated against clinician-annotated gold standards
+If using this pipeline:
+```
+Johnson, A., et al. (2023). MIMIC-IV (version 3.1). PhysioNet.
+```
