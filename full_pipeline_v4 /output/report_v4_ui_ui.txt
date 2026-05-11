@@ -1,0 +1,143 @@
+========================================================================
+  CLINICAL PREPAREDNESS REPORT (V4)
+  Generated: 2026-05-04 21:00:27
+========================================================================
+  Primary Dx: Mood Disorder secondary to General Medical Condition (F06.3)
+  DSM-5 Category: mood_disorder_due_to_medical_condition
+  Disease Category: psychiatric_secondary_to_medical
+  Progression: chronic_stable
+  Severity: severe
+  Overall MH Risk: HIGH
+========================================================================
+
+  ⚠️  CRITICAL SAFETY ALERTS
+----------------------------------------
+  ⚠️ SUICIDE/SELF-HARM SIGNAL: 'jump out' — ...nt with medications or following up with outpatient treators. She threatened to jump out her 10 story window if the took her to one of her outpatient treators. Her boyf...
+  ⚠️ SUICIDE/SELF-HARM SIGNAL: 'self-injury' — ...s and treatment: none Medication and ECT trials: Risperdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexua...
+  ⚠️ VIOLENCE SIGNAL: 'aggression' — ...] year old woman with [REDACTED] Disease who presented to the ED for worsening aggression, irritability, impulsivity, refusal to take medication and difficulty caring...
+  ⚠️ VIOLENCE SIGNAL: 'aggression' — ...as pleasant and cooperative and did not show any irritability, impulsivity or aggression. She is being discharged to an assisted living facility that specializes in pa...
+  ⚠️ VIOLENCE SIGNAL: 'aggression' — ...d some prn Risperdal in the event that she has experiences future episodes of aggression/instability. We also reduced her risk of harm to self/others, by d/c'ing Ms....
+
+  ℹ️  NEGATED SIGNALS (context noted, not active alerts)
+----------------------------------------
+  [NEGATED] violence: 'violence' — ...rge. RISK ASSESSMENT Ms. [REDACTED] has a low risk of imminent harm/aggression/violence. She has been calm and in very good behavioral control throughout the entiri...
+  [NEGATED] violence: 'aggression' — ...her discharge. RISK ASSESSMENT Ms. [REDACTED] has a low risk of imminent harm/aggression/violence. She has been calm and in very good behavioral control throughout t...
+  [NEGATED] violence: 'weapons' — ...erdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexually mollested in childhood, saw a psychiatrist P...
+
+
+1. PATIENT OVERVIEW
+----------------------------------------
+The patient is a female with a primary diagnosis of Mood Disorder secondary to General Medical Condition, specifically Chorea. She was admitted due to increased agitation, impulsivity, and difficulty caring for herself. Key features include chronic stable progression of her mood disorder, significant weight loss, and a history of aggression and refusal to take medication.
+
+2. MENTAL HEALTH STATUS
+----------------------------------------
+The patient's current mental health state is characterized by moderate suicidal ideation, aggression, and self-injury denial. Her mood disorder is secondary to her medical condition, which complicates her psychiatric care.
+
+3. KEY RISK FACTORS
+----------------------------------------
+  • Chronic stable progression of mood disorder
+  • Moderate suicidal ideation with active threats
+  • Aggression and refusal to take medication
+  • Imminent homelessness and housing loss
+  • Significant weight loss and functional decline
+
+4. PROTECTIVE FACTORS
+----------------------------------------
+  • Engagement with a multidisciplinary team including psychiatrists and social workers
+  • Medication with Risperdal for Chorea movements
+  • Reduced risk of harm to self/others by discontinuing Ms. [REDACTED]'s medication
+
+5. COUNTERFACTUAL SCENARIO BRIEFING
+----------------------------------------
+- Psychiatric / Clinical Deterioration Pathway: Plausibility: unknown | Key concern: severe decompensation event due to deteriorating physical and mental health. Action: Implement a structured daily routine with assistance for medication adherence.
+- Social / Environmental Collapse Pathway: Plausibility: unknown | Key concern: severe psychotic break due to homelessness and trauma. Action: Arrange for temporary shelter or transitional housing.
+- Substance Use Escalation Pathway: NOT APPLICABLE - No substance use evidence.
+
+  --- Detailed Scenario Data ---
+
+  [A] Psychiatric / Clinical Deterioration Pathway
+    Narrative: The patient, currently diagnosed with a mood disorder secondary to a general medical condition, is at risk of experieningly exacerbated symptoms due to the progression of her underlying [REDACTED] Disease. Given her recent significant weight loss, ataxic gait, and monosyllabic speech, there is a concern for a rapid decline in her cognitive and functional abilities. This decline could lead to increased confusion, agitation, and a higher risk of self-harm or harm to others, especially considering 
+    Crisis Endpoint: The patient could experience a severe decompensation event, potentially leading to acute psychiatric crisis, self-neglect, or harm to others due to her deteriorating physical and mental health status.
+    Plausibility: high - The patient's current clinical state, including her chronic mood disorder secondary to a general medical condition, coupled with her recent functional decline and housing crisis, presents a high plausibility for negative trajectory. Her history of aggression, refusal to take medication, and significant weight loss are indicative of an imminent risk of further deterioration.
+
+MH RELEVANCE: high
+    MH Relevance: unknown - The mental health relevance is high due to the direct impact of the patient's chronic mood disorder on her overall well-bearm. The progression of her underlying medical condition and her functional decline are likely to exacerbate her mood symptoms, increasing the risk of decompensation. Additionally, her history of aggression and suicidal ideation further underscores the need for close monitoring and intervention to prevent a severe psychiatric crisis.
+    Warning Signs:
+      - Increased confusion and agitation
+      - Refusal to adhere to medication regimen
+      - Further significant weight loss or malnutrition
+      - Worsening ataxic gait or falls
+      - Expressions of hopelessness or severe depression
+    Preparedness Actions:
+      - Implement a structured daily routine with assistance to ensure medication adherence
+      - Arrange for a home health aide or increased nursing care to monitor her physical health
+      - Engage a multidisciplinary team, including a psychiatrist, neurologist, and social worker, to address her complex medical and psychiatric needs
+      - Explore options for stable housing to reduce homelessness-related stress
+      - Develop a crisis intervention plan, including emergency contact information and steps for involuntary hospitalization if necessary
+
+  [B] Substance Use Escalation Pathway
+    STATUS: NOT APPLICABLE
+    Reason: NOT APPLICABLE — No substance use evidence. Data: alcohol=none, drugs=none, tox_screen=negative. All toxicology screens negative. Generating a substance abuse scenario would be clinically unfounded.
+
+  [C] Social / Environmental Collapse Pathway
+    Trigger: Housing Crisis: homelessness, imminent homelessness, housing loss (MH relevance: high)
+      Evidence: Patient is homeless and her apartment has been auctioned off, with homelessness imminent at the end of the week.
+    Trigger: Social Isolation Risk: No (MH relevance: high)
+      Evidence: Patient has not left the house in over a year and is currently homeless.
+    Trigger: Trauma History: trauma/PTSD (MH relevance: high)
+      Evidence: Patient has a history of trauma, although specific details are not provided.
+    Trigger: Significant weight loss, thin/emaciated (MH relevance: medium)
+      Evidence: Patient has experienced significant weight loss, appearing thin and emaciated.
+    Narrative: The patient, currently homeless and with a significant weight loss, is at risk of experiencing severe mental health deterioration due to the imminent loss of her only stable housing. The stress of homelessness, combined with her existing mood disorder secondary to a medical condition, could lead to a rapid decline in her mental health. The trauma history and significant weight loss further compound her vulnerability, potentially triggering a severe exacerbation of her mood disorder. This could m
+    Crisis Endpoint: The patient may experience a severe psychotic break, characterized by intense delusions or hallucinations, due to the extreme stress of homelessness and trauma, coupled with her pre-existing mood disorder. This could lead to a dangerous situation where the patient is unable to care for herself or may harm others, necessitating immediate intervention.
+    Plausibility: high
+    MH Relevance: unknown - The mental health relevance is high because the patient's current clinical state and triggers directly contribute to her risk of mental health deterioration. The loss of stable housing, trauma history, and physical health issues are all significant factors that can exacerbate her mood disorder and potentially lead to severe psychiatric complications. Addressing these issues promptly and effectively is crucial to prevent a negative mental health trajectory.
+    Warning Signs:
+      - Increased aggression or impulsivity
+      - Withdrawal from social interactions
+      - Significant changes in sleep patterns (insomnia or hypersomnia)
+      - Expressions of hopelessness or severe depressive thoughts
+      - Deterioration in self-care and daily functioning
+    Preparedness Actions:
+      - Arrange for a temporary shelter or transitional housing to provide immediate stability
+      - Coordinate with a multidisciplinary team, including mental health professionals, to develop a comprehensive care plan
+      - Initiate or adjust psychotropic medication to manage mood symptoms and potential psychotic features
+      - Provide trauma-informed care and support, considering the patient's trauma history
+      - Engage with community resources, such as social services and support groups, to build a network of support for the patient
+
+6. PRIORITY PREPAREDNESS ACTIONS
+----------------------------------------
+  1. Arrange for a temporary shelter or transitional housing to provide immediate stability.
+  2. Implement a structured daily routine with assistance to ensure medication adherence.
+  3. Engage a multidisciplinary team, including a psychiatrist, neurologist, and social worker, to address her complex medical and psychiatric needs.
+  4. Coordinate with a home health aide or increased nursing care to monitor her physical health.
+  5. Adjust psychotropic medication to manage mood symptoms and potential psychotic features.
+  6. RISK TIER: HIGH
+
+7. OVERALL RISK TIER: HIGH
+   The patient's risk is rated as high due to her chronic stable mood disorder secondary to a medical condition, active suicidal ideation, aggression, and imminent homelessness, all of which significantly impact her mental health and risk of harm to self or others. [OVERRIDE: Risk tier elevated to HIGH due to critical safety signals detected in clinical note: CRITICAL SIGNALS DETECTED: suicide (1 signal), violence (3 signals), self_harm (1 signal). Risk override: HIGH.]
+
+8. VALIDATION & ENRICHMENT LOG
+----------------------------------------
+   • [NORM] ICD validation: dsm5_category 'neurodevelopmental_disorders' → 'neurocognitive_disorders' (ICD G25.1 maps to movement_disorders)
+   • [NORM] ICD validation: disease_category 'unknown' → 'neurodegenerative'
+   • [NORM] ICD validation: progression 'unknown' → 'chronic_stable'
+   • [NORM] Added discharge_diagnoses: ['Mood disorder secondary to General Medical Condition', 'Advanced [REDACTED] Disease']
+   • [NORM] Discharge Dx reconciliation: Primary Dx 'Chorea' doesn't capture mood disorder. Discharge lists mood disorder secondary to medical condition.
+   • [NORM] Updated primary Dx to 'Mood Disorder secondary to GMC' (F06.3)
+   • [ENRICH] Housing crisis detected: homelessness, imminent homelessness, housing loss
+   • [ENRICH] Updated housing_status to 'homeless'
+   • [ENRICH] Trauma history detected: trauma/PTSD
+   • [ENRICH] Weight change detected: significant weight loss, thin/emaciated, thin/emaciated, thin/emaciated (30 lbs)
+   • [ENRICH] Functional decline detected: self-care difficulty, self-care difficulty, ataxic gait, monosyllabic speech, speech latency
+   • [ENRICH] Homebound duration: a year
+   • [ENRICH] Clinician prognosis: clinician prognosis statement, high future decompensation risk, progressive neurodegenerative condition, late-stage disease reference
+   • [CHECK] Risk tier override: 'UNKNOWN' → 'HIGH' (critical signals detected: CRITICAL SIGNALS DETECTED: suicide (1 signal), violence (3 signals), self_harm (1 signal). Risk override: HIGH.)
+   • [CHECK] Injected 5 priority alert(s) into report
+   • [CHECK] Severity inferred: 'unknown' → 'severe'
+   • [CHECK] Plausibility resolved for Psychiatric / Clinical Deterioration Pathway: 'unknown' → 'high'
+   • [CHECK] Plausibility resolved for Social / Environmental Collapse Pathway: 'unknown' → 'high'
+
+========================================================================
+  END OF REPORT
+========================================================================

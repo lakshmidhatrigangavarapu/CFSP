@@ -1,0 +1,270 @@
+{
+  "schema_version": "2.0",
+  "description": "Extended DSM-5/ICD-11 grounded clinical factor extraction schema — V2 with disease ontology, progression, and cognitive status fields",
+  "fields": {
+    "primary_mh_diagnosis": {
+      "type": "object",
+      "description": "Primary mental health or neuropsychiatric diagnosis for this admission. For neurodegenerative diseases (Huntington's, Parkinson's, Alzheimer's) with psychiatric manifestations, the PRIMARY diagnosis should be the PSYCHIATRIC manifestation (e.g., 'Mood Disorder secondary to Huntington's Disease'), NOT the movement disorder symptom.",
+      "properties": {
+        "icd_code": {
+          "type": "string",
+          "description": "ICD-9 or ICD-10 code"
+        },
+        "title": {
+          "type": "string",
+          "description": "Diagnosis name — use the DISCHARGE DIAGNOSIS if available, not just a symptom name"
+        },
+        "dsm5_category": {
+          "type": "string",
+          "enum": [
+            "depressive_disorders",
+            "bipolar_disorders",
+            "anxiety_disorders",
+            "trauma_stress_disorders",
+            "schizophrenia_psychotic",
+            "substance_use_disorders",
+            "neurocognitive_disorders",
+            "personality_disorders",
+            "somatic_disorders",
+            "neurodevelopmental_disorders",
+            "mood_disorder_due_to_medical_condition",
+            "other_mental_health"
+          ],
+          "description": "DSM-5 diagnostic category. Use 'neurocognitive_disorders' for neurodegenerative diseases (Huntington's, Alzheimer's, Parkinson's). Use 'mood_disorder_due_to_medical_condition' when mood symptoms are secondary to a medical/neurological condition."
+        }
+      }
+    },
+    "discharge_diagnoses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "ALL diagnoses listed in the Discharge Diagnosis section of the note, exactly as written"
+    },
+    "disease_category": {
+      "type": "string",
+      "enum": [
+        "psychiatric_primary",
+        "psychiatric_secondary_to_medical",
+        "neurodegenerative",
+        "medical_with_psychiatric_comorbidity",
+        "medical_only"
+      ],
+      "description": "Whether the PRIMARY condition is a psychiatric disorder, a psychiatric manifestation of a medical condition, a neurodegenerative disease, or a purely medical condition"
+    },
+    "progression": {
+      "type": "string",
+      "enum": [
+        "acute",
+        "episodic",
+        "chronic_stable",
+        "progressive",
+        "terminal"
+      ],
+      "description": "Disease trajectory: acute (single episode), episodic (recurring), chronic_stable, progressive (worsening over time, e.g. Huntington's), terminal"
+    },
+    "cognitive_status": {
+      "type": "string",
+      "enum": [
+        "intact",
+        "mild_impairment",
+        "moderate_impairment",
+        "severe_impairment",
+        "unknown"
+      ],
+      "description": "Cognitive function level based on exam findings, mental status, or documented assessments"
+    },
+    "functional_impairment": {
+      "type": "string",
+      "enum": [
+        "none",
+        "mild",
+        "moderate",
+        "severe",
+        "total_dependence"
+      ],
+      "description": "Level of functional impairment in daily activities (ADLs). 'total_dependence' = requires assisted living or full-time care"
+    },
+    "comorbid_mh_diagnoses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "icd_code": { "type": "string" },
+          "title": { "type": "string" },
+          "dsm5_category": { "type": "string" }
+        }
+      },
+      "description": "Additional mental health diagnoses"
+    },
+    "medical_comorbidities": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Non-MH diagnoses (top 5 by seq priority)"
+    },
+    "severity_level": {
+      "type": "string",
+      "enum": ["mild", "moderate", "severe", "critical"],
+      "description": "Overall clinical severity"
+    },
+    "suicide_risk_indicators": {
+      "type": "object",
+      "properties": {
+        "ideation_mentioned": { "type": "boolean" },
+        "attempt_history": { "type": "boolean" },
+        "self_harm": { "type": "boolean" },
+        "precautions_ordered": { "type": "boolean" },
+        "risk_level": {
+          "type": "string",
+          "enum": ["none", "low", "moderate", "high"]
+        },
+        "specific_threats": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Exact quotes or paraphrases of any suicide threats from the note"
+        }
+      },
+      "description": "Suicide/self-harm risk signals"
+    },
+    "violence_risk_indicators": {
+      "type": "object",
+      "properties": {
+        "aggression_present": { "type": "boolean" },
+        "violence_history": { "type": "boolean" },
+        "threats_made": { "type": "boolean" },
+        "risk_level": {
+          "type": "string",
+          "enum": ["none", "low", "moderate", "high"]
+        },
+        "specific_incidents": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Exact quotes or paraphrases of violence incidents from the note"
+        }
+      },
+      "description": "Violence and aggression risk signals"
+    },
+    "substance_use": {
+      "type": "object",
+      "properties": {
+        "alcohol": {
+          "type": "string",
+          "enum": ["none", "use", "abuse", "dependence"]
+        },
+        "drugs": {
+          "type": "string",
+          "enum": ["none", "use", "abuse", "dependence"]
+        },
+        "tobacco": {
+          "type": "string",
+          "enum": ["none", "current", "former"]
+        },
+        "positive_tox_screen": { "type": "boolean" },
+        "substances_detected": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "description": "Substance use profile"
+    },
+    "medication_profile": {
+      "type": "object",
+      "properties": {
+        "psychotropic_medications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "drug": { "type": "string" },
+              "class": { "type": "string" },
+              "dose": { "type": "string" },
+              "route": { "type": "string" }
+            }
+          }
+        },
+        "medication_count": { "type": "integer" },
+        "psychotropic_count": { "type": "integer" },
+        "polypharmacy": { "type": "boolean", "description": "5+ concurrent medications" }
+      },
+      "description": "Medication profile"
+    },
+    "medication_adherence": {
+      "type": "string",
+      "enum": ["good", "partial", "poor", "unknown"],
+      "description": "Medication adherence"
+    },
+    "lab_abnormalities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "test": { "type": "string" },
+          "finding": { "type": "string", "enum": ["high", "low", "abnormal"] },
+          "clinical_significance": { "type": "string" }
+        }
+      },
+      "description": "Clinically relevant lab abnormalities"
+    },
+    "psychiatric_service_involvement": {
+      "type": "boolean",
+      "description": "Whether PSYCH service was consulted/primary"
+    },
+    "icu_admission": {
+      "type": "object",
+      "properties": {
+        "admitted_to_icu": { "type": "boolean" },
+        "careunit": { "type": "string" },
+        "los_days": { "type": "number" },
+        "restraints_used": { "type": "boolean" },
+        "gcs_min": { "type": "number" },
+        "agitation_level": {
+          "type": "string",
+          "enum": ["none", "mild", "moderate", "severe"]
+        }
+      },
+      "description": "ICU involvement"
+    },
+    "social_factors": {
+      "type": "object",
+      "properties": {
+        "marital_status": { "type": "string" },
+        "insurance_type": { "type": "string" },
+        "social_isolation_risk": { "type": "boolean" },
+        "housing_status": {
+          "type": "string",
+          "enum": ["stable", "unstable", "homeless", "assisted_living", "unknown"]
+        },
+        "support_system": {
+          "type": "string",
+          "enum": ["strong", "moderate", "weak", "none", "unknown"]
+        }
+      },
+      "description": "Social determinants"
+    },
+    "admission_context": {
+      "type": "object",
+      "properties": {
+        "admission_type": { "type": "string" },
+        "is_emergency": { "type": "boolean" },
+        "discharge_disposition": { "type": "string" },
+        "los_days": { "type": "number" },
+        "in_hospital_death": { "type": "boolean" }
+      },
+      "description": "Admission-level context"
+    },
+    "trajectory_signals": {
+      "type": "object",
+      "properties": {
+        "prior_admission_count": { "type": "integer" },
+        "days_since_last_admission": { "type": "number" },
+        "readmission_within_30d": { "type": "boolean" },
+        "diagnosis_escalation": { "type": "boolean" },
+        "severity_change": {
+          "type": "string",
+          "enum": ["improved", "stable", "worsened", "first_admission"]
+        }
+      },
+      "description": "Longitudinal trajectory signals"
+    }
+  }
+}

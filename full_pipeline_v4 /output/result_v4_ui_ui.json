@@ -1,0 +1,947 @@
+{
+  "pipeline_version": "4.0",
+  "timestamp": "2026-05-04T20:51:02.108464",
+  "duration_seconds": 565.4,
+  "status": "success",
+  "phase1_silver_labels": {
+    "primary_mh_diagnosis": {
+      "icd_code": "F06.3",
+      "title": "Mood Disorder secondary to General Medical Condition",
+      "dsm5_category": "mood_disorder_due_to_medical_condition"
+    },
+    "comorbid_mh_diagnoses": [],
+    "medical_comorbidities": [
+      "Chorea"
+    ],
+    "severity_level": "severe",
+    "suicide_risk_indicators": {
+      "ideation_mentioned": true,
+      "attempt_history": false,
+      "self_harm": false,
+      "precautions_ordered": false,
+      "specific_threats": [
+        "...nt with medications or following up with outpatient treators. She threatened to jump out her 10 story window if the took her to one of her outpatient treators. Her boyf...",
+        "...s and treatment: none Medication and ECT trials: Risperdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexua..."
+      ],
+      "risk_level": "moderate"
+    },
+    "substance_use": {
+      "alcohol": "none",
+      "drugs": "none",
+      "tobacco": "none",
+      "positive_tox_screen": false,
+      "substances_detected": []
+    },
+    "medication_profile": {
+      "psychotropic_medications": [
+        {
+          "drug": "Risperdal",
+          "class": "atypical antipsychotic",
+          "dose": "not specified",
+          "route": "not specified"
+        }
+      ],
+      "medication_count": 1,
+      "psychotropic_count": 1,
+      "polypharmacy": false
+    },
+    "medication_adherence": "unknown",
+    "lab_abnormalities": [
+      {
+        "test": "Blood WBC",
+        "finding": "normal",
+        "clinical_significance": "no abnormality"
+      }
+    ],
+    "disease_category": "psychiatric_secondary_to_medical",
+    "progression": "chronic_stable",
+    "discharge_diagnoses": [
+      "Mood disorder secondary to General Medical Condition",
+      "Advanced [REDACTED] Disease"
+    ],
+    "_normalization_log": [
+      "ICD validation: dsm5_category 'neurodevelopmental_disorders' \u2192 'neurocognitive_disorders' (ICD G25.1 maps to movement_disorders)",
+      "ICD validation: disease_category 'unknown' \u2192 'neurodegenerative'",
+      "ICD validation: progression 'unknown' \u2192 'chronic_stable'",
+      "Added discharge_diagnoses: ['Mood disorder secondary to General Medical Condition', 'Advanced [REDACTED] Disease']",
+      "Discharge Dx reconciliation: Primary Dx 'Chorea' doesn't capture mood disorder. Discharge lists mood disorder secondary to medical condition.",
+      "Updated primary Dx to 'Mood Disorder secondary to GMC' (F06.3)"
+    ],
+    "social_factors": {
+      "housing_status": "homeless"
+    },
+    "enriched_context": {
+      "housing_crisis": {
+        "detected": true,
+        "details": [
+          "homelessness",
+          "imminent homelessness",
+          "housing loss"
+        ],
+        "evidence": "o have a 3 midnight admission in a hospital beforehand. Her apt has been auctioned off and will be homeless at the end of the week. Collateral from Uncle: Mentioned patient was physically assulting boyfrie"
+      },
+      "trauma_history": {
+        "detected": true,
+        "details": [
+          "trauma/PTSD"
+        ],
+        "evidence": "Risperdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexually mollested in childhood, saw a psychiatrist PAST MEDICAL HISTORY: [REDACTED], MD"
+      },
+      "weight_change": {
+        "detected": true,
+        "details": [
+          "significant weight loss",
+          "thin/emaciated",
+          "thin/emaciated",
+          "thin/emaciated"
+        ],
+        "amount": "30 lbs",
+        "evidence": "with peanutbutter and jelly, [REDACTED] muffins, tuna, and egg salad.\" She did aknowledge she has lost weight(30lbs per ER phsycian) but doesn't know why because she has been eating normally. She did look very thin"
+      },
+      "functional_decline": {
+        "detected": true,
+        "details": [
+          "self-care difficulty",
+          "self-care difficulty",
+          "ataxic gait",
+          "monosyllabic speech",
+          "speech latency"
+        ],
+        "evidence": "se Drug Reactions Attending: [REDACTED]. Chief Complaint: Increased agitation, impulsivity, and difficulty caring for self Major Surgical or Invasive Procedure: None History of Present Illness: Patient is a [REDACTED]",
+        "homebound_duration": "a year"
+      },
+      "clinician_prognosis": {
+        "detected": true,
+        "details": [
+          "clinician prognosis statement",
+          "high future decompensation risk",
+          "progressive neurodegenerative condition",
+          "late-stage disease reference"
+        ],
+        "statement": "onment. She does, however, have a high risk of future decompensation given the fact that she has a progressive neurodegenerative condition that is associated w/ mood swings and psychosis in its later stages. We helped to mitigate that"
+      }
+    },
+    "_enrichment_log": [
+      "Housing crisis detected: homelessness, imminent homelessness, housing loss",
+      "Updated housing_status to 'homeless'",
+      "Trauma history detected: trauma/PTSD",
+      "Weight change detected: significant weight loss, thin/emaciated, thin/emaciated, thin/emaciated (30 lbs)",
+      "Functional decline detected: self-care difficulty, self-care difficulty, ataxic gait, monosyllabic speech, speech latency",
+      "Homebound duration: a year",
+      "Clinician prognosis: clinician prognosis statement, high future decompensation risk, progressive neurodegenerative condition, late-stage disease reference"
+    ],
+    "violence_risk_indicators": {
+      "aggression_present": true,
+      "specific_incidents": [
+        "...] year old woman with [REDACTED] Disease who presented to the ED for worsening aggression, irritability, impulsivity, refusal to take medication and difficulty caring...",
+        "...as pleasant and cooperative and did not show any irritability, impulsivity or aggression. She is being discharged to an assisted living facility that specializes in pa...",
+        "...d some prn Risperdal in the event that she has experiences future episodes of aggression/instability. We also reduced her risk of harm to self/others, by d/c'ing Ms...."
+      ],
+      "risk_level": "moderate"
+    }
+  },
+  "phase1_5_normalization_log": [
+    "ICD validation: dsm5_category 'neurodevelopmental_disorders' \u2192 'neurocognitive_disorders' (ICD G25.1 maps to movement_disorders)",
+    "ICD validation: disease_category 'unknown' \u2192 'neurodegenerative'",
+    "ICD validation: progression 'unknown' \u2192 'chronic_stable'",
+    "Added discharge_diagnoses: ['Mood disorder secondary to General Medical Condition', 'Advanced [REDACTED] Disease']",
+    "Discharge Dx reconciliation: Primary Dx 'Chorea' doesn't capture mood disorder. Discharge lists mood disorder secondary to medical condition.",
+    "Updated primary Dx to 'Mood Disorder secondary to GMC' (F06.3)"
+  ],
+  "phase1_55_enrichment_log": [
+    "Housing crisis detected: homelessness, imminent homelessness, housing loss",
+    "Updated housing_status to 'homeless'",
+    "Trauma history detected: trauma/PTSD",
+    "Weight change detected: significant weight loss, thin/emaciated, thin/emaciated, thin/emaciated (30 lbs)",
+    "Functional decline detected: self-care difficulty, self-care difficulty, ataxic gait, monosyllabic speech, speech latency",
+    "Homebound duration: a year",
+    "Clinician prognosis: clinician prognosis statement, high future decompensation risk, progressive neurodegenerative condition, late-stage disease reference"
+  ],
+  "phase1_6_critical_signals": {
+    "signals_found": true,
+    "override_risk_tier": "HIGH",
+    "categories": {
+      "suicide": [
+        {
+          "matched_text": "jump out",
+          "pattern": "jump\\s+(?:out|off|from)",
+          "context": "...nt with medications or following up with outpatient treators. She threatened to jump out her 10 story window if the took her to one of her outpatient treators. Her boyf...",
+          "position": 2537,
+          "negated": false
+        }
+      ],
+      "violence": [
+        {
+          "matched_text": "aggression",
+          "pattern": "aggress\\w+",
+          "context": "...] year old woman with [REDACTED] Disease who presented to the ED for worsening aggression, irritability, impulsivity, refusal to take medication and difficulty caring...",
+          "position": 5974,
+          "negated": false
+        },
+        {
+          "matched_text": "aggression",
+          "pattern": "aggress\\w+",
+          "context": "...as pleasant and cooperative and did not show any irritability, impulsivity or aggression. She is being discharged to an assisted living facility that specializes in pa...",
+          "position": 7322,
+          "negated": false
+        },
+        {
+          "matched_text": "aggression",
+          "pattern": "aggress\\w+",
+          "context": "...d some prn Risperdal in the event that she has experiences future episodes of aggression/instability. We also reduced her risk of harm to self/others, by d/c'ing Ms....",
+          "position": 9031,
+          "negated": false
+        }
+      ],
+      "self_harm": [
+        {
+          "matched_text": "self-injury",
+          "pattern": "self[- ]?injur\\w*",
+          "context": "...s and treatment: none Medication and ECT trials: Risperdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexua...",
+          "position": 2942,
+          "negated": false
+        }
+      ]
+    },
+    "alert_summary": "CRITICAL SIGNALS DETECTED: suicide (1 signal), violence (3 signals), self_harm (1 signal). Risk override: HIGH.",
+    "priority_alerts": [
+      "\u26a0\ufe0f SUICIDE/SELF-HARM SIGNAL: 'jump out' \u2014 ...nt with medications or following up with outpatient treators. She threatened to jump out her 10 story window if the took her to one of her outpatient treators. Her boyf...",
+      "\u26a0\ufe0f SUICIDE/SELF-HARM SIGNAL: 'self-injury' \u2014 ...s and treatment: none Medication and ECT trials: Risperdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexua...",
+      "\u26a0\ufe0f VIOLENCE SIGNAL: 'aggression' \u2014 ...] year old woman with [REDACTED] Disease who presented to the ED for worsening aggression, irritability, impulsivity, refusal to take medication and difficulty caring...",
+      "\u26a0\ufe0f VIOLENCE SIGNAL: 'aggression' \u2014 ...as pleasant and cooperative and did not show any irritability, impulsivity or aggression. She is being discharged to an assisted living facility that specializes in pa...",
+      "\u26a0\ufe0f VIOLENCE SIGNAL: 'aggression' \u2014 ...d some prn Risperdal in the event that she has experiences future episodes of aggression/instability. We also reduced her risk of harm to self/others, by d/c'ing Ms...."
+    ],
+    "negated_signals": [
+      "[NEGATED] violence: 'violence' \u2014 ...rge. RISK ASSESSMENT Ms. [REDACTED] has a low risk of imminent harm/aggression/violence. She has been calm and in very good behavioral control throughout the entiri...",
+      "[NEGATED] violence: 'aggression' \u2014 ...her discharge. RISK ASSESSMENT Ms. [REDACTED] has a low risk of imminent harm/aggression/violence. She has been calm and in very good behavioral control throughout t...",
+      "[NEGATED] violence: 'weapons' \u2014 ...erdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexually mollested in childhood, saw a psychiatrist P..."
+    ]
+  },
+  "phase1_7_branch_gating": [
+    {
+      "id": "A",
+      "type": "clinical_deterioration",
+      "gated": false,
+      "reason": "Core pathway \u2014 always evaluated"
+    },
+    {
+      "id": "B",
+      "type": "substance_escalation",
+      "gated": true,
+      "reason": "NOT APPLICABLE \u2014 No substance use evidence. Data: alcohol=none, drugs=none, tox_screen=negative. All toxicology screens negative. Generating a substance abuse scenario would be clinically unfounded."
+    },
+    {
+      "id": "C",
+      "type": "social_environmental_collapse",
+      "gated": false,
+      "reason": "Core pathway \u2014 always evaluated"
+    }
+  ],
+  "phase2_scenarios": {
+    "phase": "2_tree_of_thoughts_scenario_generation",
+    "method": "tree_of_thoughts_v2",
+    "num_branches": 3,
+    "active_branches": 2,
+    "gated_branches": 1,
+    "mental_health_relevance_assessment": {
+      "primary_is_psychiatric": true,
+      "has_psych_history": false,
+      "mh_scenario_relevance": "high",
+      "explanation": "The patient's primary condition is a mood disorder secondary to a general medical condition, which is a psychiatric condition. However, there is no known psychiatric history, indicating this is a new onset or a secondary psychiatric condition due to another medical issue. Given the chronic and stable progression of the mood disorder, the relevance of mental health scenarios is high, as the patient's current mental health state is directly impacted by their medical condition.",
+      "recommended_focus": "Scenarios should focus on the potential progression of the mood disorder secondary to the general medical condition, considering the patient's chronic stable state and the risk of decompensation due to the progressive neurodegenerative condition. It is also important to consider the impact of the patient's housing crisis, weight loss, and functional decline on their mental health. Preventive measures should include close monitoring of mood symptoms, ensuring medication adherence, and addressing the patient's social and environmental stressors."
+    },
+    "patient_factors_summary": {
+      "primary_diagnosis": "Mood Disorder secondary to General Medical Condition",
+      "dsm5_category": "mood_disorder_due_to_medical_condition",
+      "disease_category": "psychiatric_secondary_to_medical",
+      "progression": "chronic_stable",
+      "severity": "unknown",
+      "suicide_ideation": true,
+      "violence_risk": true,
+      "substance_use": {
+        "alcohol": "none",
+        "drugs": "none",
+        "tobacco": "none",
+        "positive_tox_screen": false,
+        "substances_detected": []
+      },
+      "social_isolation_risk": false
+    },
+    "scenarios": [
+      {
+        "scenario_id": "A",
+        "branch_type": "clinical_deterioration",
+        "branch_label": "Psychiatric / Clinical Deterioration Pathway",
+        "gated": false,
+        "triggering_factors": {
+          "factor": "Chronic stable Mood Disorder secondary to General Medical Condition",
+          "evidence": "Primary MH Diagnosis: Mood Disorder secondary to General Medical Condition (ICD: F06.3, DSM-5: mood_disorder_due_to_medical_condition)",
+          "reason": "The patient's chronic mood disorder, which is secondary to a general medical condition, poses a risk for clinical deterioration if the underlying medical condition worsens or if the patient's response to treatment changes.",
+          "mh_relevance": "high"
+        },
+        "causal_chain": {
+          "step": 1,
+          "event": "Worsening of underlying medical condition (e.g., [REDACTED] Disease)",
+          "mechanism": "The patient's chronic mood disorder is secondary to a general medical condition. Any deterioration in the underlying medical condition could exacerbate the mood disorder symptoms due to the direct physiological impact on brain function and neurotransmitter balance.",
+          "connects_to": "Increased mood instability and potential for decompensation"
+        },
+        "scenario": {
+          "narrative": "The patient, currently diagnosed with a mood disorder secondary to a general medical condition, is at risk of experieningly exacerbated symptoms due to the progression of her underlying [REDACTED] Disease. Given her recent significant weight loss, ataxic gait, and monosyllabic speech, there is a concern for a rapid decline in her cognitive and functional abilities. This decline could lead to increased confusion, agitation, and a higher risk of self-harm or harm to others, especially considering her history of aggression and refusal to take prescribed medication.",
+          "warning_signs": [
+            "Increased confusion and agitation",
+            "Refusal to adhere to medication regimen",
+            "Further significant weight loss or malnutrition",
+            "Worsening ataxic gait or falls",
+            "Expressions of hopelessness or severe depression"
+          ],
+          "crisis_endpoint": "The patient could experience a severe decompensation event, potentially leading to acute psychiatric crisis, self-neglect, or harm to others due to her deteriorating physical and mental health status.",
+          "preparedness_actions": [
+            "Implement a structured daily routine with assistance to ensure medication adherence",
+            "Arrange for a home health aide or increased nursing care to monitor her physical health",
+            "Engage a multidisciplinary team, including a psychiatrist, neurologist, and social worker, to address her complex medical and psychiatric needs",
+            "Explore options for stable housing to reduce homelessness-related stress",
+            "Develop a crisis intervention plan, including emergency contact information and steps for involuntary hospitalization if necessary",
+            "PLAUSIBILITY: high"
+          ],
+          "plausibility": "high",
+          "plausibility_rationale": "The patient's current clinical state, including her chronic mood disorder secondary to a general medical condition, coupled with her recent functional decline and housing crisis, presents a high plausibility for negative trajectory. Her history of aggression, refusal to take medication, and significant weight loss are indicative of an imminent risk of further deterioration.\n\nMH RELEVANCE: high",
+          "mental_health_relevance": "unknown",
+          "mh_relevance_note": "The mental health relevance is high due to the direct impact of the patient's chronic mood disorder on her overall well-bearm. The progression of her underlying medical condition and her functional decline are likely to exacerbate her mood symptoms, increasing the risk of decompensation. Additionally, her history of aggression and suicidal ideation further underscores the need for close monitoring and intervention to prevent a severe psychiatric crisis."
+        }
+      },
+      {
+        "scenario_id": "B",
+        "branch_type": "substance_escalation",
+        "branch_label": "Substance Use Escalation Pathway",
+        "gated": true,
+        "gate_reason": "NOT APPLICABLE \u2014 No substance use evidence. Data: alcohol=none, drugs=none, tox_screen=negative. All toxicology screens negative. Generating a substance abuse scenario would be clinically unfounded.",
+        "triggering_factors": [],
+        "causal_chain": [],
+        "scenario": {
+          "narrative": "NOT APPLICABLE: NOT APPLICABLE \u2014 No substance use evidence. Data: alcohol=none, drugs=none, tox_screen=negative. All toxicology screens negative. Generating a substance abuse scenario would be clinically unfounded.",
+          "warning_signs": [],
+          "crisis_endpoint": "N/A \u2014 pathway not applicable for this patient",
+          "preparedness_actions": [],
+          "plausibility": "not_applicable",
+          "plausibility_rationale": "NOT APPLICABLE \u2014 No substance use evidence. Data: alcohol=none, drugs=none, tox_screen=negative. All toxicology screens negative. Generating a substance abuse scenario would be clinically unfounded.",
+          "mental_health_relevance": "not_applicable",
+          "mh_relevance_note": "NOT APPLICABLE \u2014 No substance use evidence. Data: alcohol=none, drugs=none, tox_screen=negative. All toxicology screens negative. Generating a substance abuse scenario would be clinically unfounded."
+        }
+      },
+      {
+        "scenario_id": "C",
+        "branch_type": "social_environmental_collapse",
+        "branch_label": "Social / Environmental Collapse Pathway",
+        "gated": false,
+        "triggering_factors": [
+          {
+            "factor": "Housing Crisis: homelessness, imminent homelessness, housing loss",
+            "evidence": "Patient is homeless and her apartment has been auctioned off, with homelessness imminent at the end of the week.",
+            "reason": "Loss of stable housing can lead to increased stress, social isolation, and a lack of supportive community, all of which can exacerbate mental health conditions, particularly in someone with a mood disorder secondary to a medical condition.",
+            "mh_relevance": "high"
+          },
+          {
+            "factor": "Social Isolation Risk: No",
+            "evidence": "Patient has not left the house in over a year and is currently homeless.",
+            "reason": "Social isolation is a significant risk factor for mental health deterioration, particularly in individuals with pre-existing mood disorders. The lack of social interaction and support can lead to feelings of loneliness, depression, and anxiety.",
+            "mh_relevance": "high"
+          },
+          {
+            "factor": "Trauma History: trauma/PTSD",
+            "evidence": "Patient has a history of trauma, although specific details are not provided.",
+            "reason": "Trauma can be a significant risk factor for the development and exacerbation of mental health conditions, including mood disorders. The patient's trauma history, combined with her current social and environmental challenges, could contribute to a heightened risk of mental health deterioration.",
+            "mh_relevance": "high"
+          },
+          {
+            "factor": "Significant weight loss, thin/emaciated",
+            "evidence": "Patient has experienced significant weight loss, appearing thin and emaciated.",
+            "reason": "Physical health issues, such as significant weight loss, can impact mental health by affecting self-esteem, body image, and overall well-being. In the context of a mood disorder secondary to a medical condition, this could further complicate the patient's mental health status.",
+            "mh_relevance": "medium"
+          }
+        ],
+        "causal_chain": {
+          "step": 1,
+          "event": "Imminent homelessness due to auction of patient's apartment",
+          "mechanism": "Loss of stable housing increases stress and exacerbates existing mood disorder.",
+          "connects_to": "Step 2: Increased stress leading to heightened symptoms of mood disorder."
+        },
+        "scenario": {
+          "narrative": "The patient, currently homeless and with a significant weight loss, is at risk of experiencing severe mental health deterioration due to the imminent loss of her only stable housing. The stress of homelessness, combined with her existing mood disorder secondary to a medical condition, could lead to a rapid decline in her mental health. The trauma history and significant weight loss further compound her vulnerability, potentially triggering a severe exacerbation of her mood disorder. This could manifest as increased psychotic symptoms, severe depressive episodes, or heightened anxiety, which may be difficult to manage given her current living situation and lack of social support.",
+          "warning_signs": [
+            "Increased aggression or impulsivity",
+            "Withdrawal from social interactions",
+            "Significant changes in sleep patterns (insomnia or hypersomnia)",
+            "Expressions of hopelessness or severe depressive thoughts",
+            "Deterioration in self-care and daily functioning"
+          ],
+          "crisis_endpoint": "The patient may experience a severe psychotic break, characterized by intense delusions or hallucinations, due to the extreme stress of homelessness and trauma, coupled with her pre-existing mood disorder. This could lead to a dangerous situation where the patient is unable to care for herself or may harm others, necessitating immediate intervention.",
+          "preparedness_actions": [
+            "Arrange for a temporary shelter or transitional housing to provide immediate stability",
+            "Coordinate with a multidisciplinary team, including mental health professionals, to develop a comprehensive care plan",
+            "Initiate or adjust psychotropic medication to manage mood symptoms and potential psychotic features",
+            "Provide trauma-informed care and support, considering the patient's trauma history",
+            "Engage with community resources, such as social services and support groups, to build a network of support for the patient",
+            "PLAUSIBILITY: high",
+            "The patient's current clinical state, with a history of trauma, significant weight loss, and imminent homelessness, presents a high plausibility for a negative mental health trajectory. The combination of these factors, along with her mood disorder secondary to a medical condition, significantly increases her risk of mental health deterioration.",
+            "MH RELEVANCE: high",
+            "The mental health relevance in this scenario is high due to the direct impact of the patient's housing crisis, trauma history, and physical health on her psychiatric condition. The imminent loss of stable housing, combined with her pre-existing mood disorder and trauma, creates a complex and challenging situation that requires immediate attention and intervention to prevent severe mental health deterioration."
+          ],
+          "plausibility": "high",
+          "plausibility_rationale": "",
+          "mental_health_relevance": "unknown",
+          "mh_relevance_note": "The mental health relevance is high because the patient's current clinical state and triggers directly contribute to her risk of mental health deterioration. The loss of stable housing, trauma history, and physical health issues are all significant factors that can exacerbate her mood disorder and potentially lead to severe psychiatric complications. Addressing these issues promptly and effectively is crucial to prevent a negative mental health trajectory."
+        }
+      }
+    ]
+  },
+  "phase3_report": {
+    "patient_overview": "The patient is a female with a primary diagnosis of Mood Disorder secondary to General Medical Condition, specifically Chorea. She was admitted due to increased agitation, impulsivity, and difficulty caring for herself. Key features include chronic stable progression of her mood disorder, significant weight loss, and a history of aggression and refusal to take medication.",
+    "mental_health_status": "The patient's current mental health state is characterized by moderate suicidal ideation, aggression, and self-injury denial. Her mood disorder is secondary to her medical condition, which complicates her psychiatric care.",
+    "key_risk_factors": [
+      "Chronic stable progression of mood disorder",
+      "Moderate suicidal ideation with active threats",
+      "Aggression and refusal to take medication",
+      "Imminent homelessness and housing loss",
+      "Significant weight loss and functional decline"
+    ],
+    "protective_factors": [
+      "Engagement with a multidisciplinary team including psychiatrists and social workers",
+      "Medication with Risperdal for Chorea movements",
+      "Reduced risk of harm to self/others by discontinuing Ms. [REDACTED]'s medication"
+    ],
+    "scenario_briefing": "- Psychiatric / Clinical Deterioration Pathway: Plausibility: unknown | Key concern: severe decompensation event due to deteriorating physical and mental health. Action: Implement a structured daily routine with assistance for medication adherence.\n- Social / Environmental Collapse Pathway: Plausibility: unknown | Key concern: severe psychotic break due to homelessness and trauma. Action: Arrange for temporary shelter or transitional housing.\n- Substance Use Escalation Pathway: NOT APPLICABLE - No substance use evidence.",
+    "priority_actions": [
+      "Arrange for a temporary shelter or transitional housing to provide immediate stability.",
+      "Implement a structured daily routine with assistance to ensure medication adherence.",
+      "Engage a multidisciplinary team, including a psychiatrist, neurologist, and social worker, to address her complex medical and psychiatric needs.",
+      "Coordinate with a home health aide or increased nursing care to monitor her physical health.",
+      "Adjust psychotropic medication to manage mood symptoms and potential psychotic features.",
+      "RISK TIER: HIGH"
+    ],
+    "overall_risk_tier": "HIGH",
+    "risk_tier_justification": "The patient's risk is rated as high due to her chronic stable mood disorder secondary to a medical condition, active suicidal ideation, aggression, and imminent homelessness, all of which significantly impact her mental health and risk of harm to self or others. [OVERRIDE: Risk tier elevated to HIGH due to critical safety signals detected in clinical note: CRITICAL SIGNALS DETECTED: suicide (1 signal), violence (3 signals), self_harm (1 signal). Risk override: HIGH.]",
+    "priority_alerts": [
+      "\u26a0\ufe0f SUICIDE/SELF-HARM SIGNAL: 'jump out' \u2014 ...nt with medications or following up with outpatient treators. She threatened to jump out her 10 story window if the took her to one of her outpatient treators. Her boyf...",
+      "\u26a0\ufe0f SUICIDE/SELF-HARM SIGNAL: 'self-injury' \u2014 ...s and treatment: none Medication and ECT trials: Risperdal for Chorea movements Self-injury: denies Harm to others: denies Access to weapons: denies Trauma: Endorses sexua...",
+      "\u26a0\ufe0f VIOLENCE SIGNAL: 'aggression' \u2014 ...] year old woman with [REDACTED] Disease who presented to the ED for worsening aggression, irritability, impulsivity, refusal to take medication and difficulty caring...",
+      "\u26a0\ufe0f VIOLENCE SIGNAL: 'aggression' \u2014 ...as pleasant and cooperative and did not show any irritability, impulsivity or aggression. She is being discharged to an assisted living facility that specializes in pa...",
+      "\u26a0\ufe0f VIOLENCE SIGNAL: 'aggression' \u2014 ...d some prn Risperdal in the event that she has experiences future episodes of aggression/instability. We also reduced her risk of harm to self/others, by d/c'ing Ms...."
+    ],
+    "_consistency_log": [
+      "Risk tier override: 'UNKNOWN' \u2192 'HIGH' (critical signals detected: CRITICAL SIGNALS DETECTED: suicide (1 signal), violence (3 signals), self_harm (1 signal). Risk override: HIGH.)",
+      "Injected 5 priority alert(s) into report",
+      "Severity inferred: 'unknown' \u2192 'severe'",
+      "Plausibility resolved for Psychiatric / Clinical Deterioration Pathway: 'unknown' \u2192 'high'",
+      "Plausibility resolved for Social / Environmental Collapse Pathway: 'unknown' \u2192 'high'"
+    ]
+  },
+  "phase3_5_consistency_log": [
+    "Risk tier override: 'UNKNOWN' \u2192 'HIGH' (critical signals detected: CRITICAL SIGNALS DETECTED: suicide (1 signal), violence (3 signals), self_harm (1 signal). Risk override: HIGH.)",
+    "Injected 5 priority alert(s) into report",
+    "Severity inferred: 'unknown' \u2192 'severe'",
+    "Plausibility resolved for Psychiatric / Clinical Deterioration Pathway: 'unknown' \u2192 'high'",
+    "Plausibility resolved for Social / Environmental Collapse Pathway: 'unknown' \u2192 'high'"
+  ],
+  "phase4_evidence_attribution": {
+    "evidence_spans": [
+      {
+        "text": "e: PSYCHIATRY\n \nAllergies: \nNo Known Allergies / Adverse Drug Reactions\n \nAttending: [REDACTED].\n \nChief Complaint:\nIncreased agitation, impulsivity, and difficulty caring for self\n \nMajor Surgical or Inva",
+        "start": 188,
+        "end": 393,
+        "branches": [
+          "A",
+          "C"
+        ],
+        "factors": [
+          "functional_decline",
+          "warning_sign"
+        ],
+        "relevance": "high",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 0.667
+      },
+      {
+        "text": " with PMH of [REDACTED] Chorea and no\nknown psych history, ",
+        "start": 478,
+        "end": 537,
+        "branches": [
+          "C",
+          "A"
+        ],
+        "factors": [
+          "warning_sign"
+        ],
+        "relevance": "medium",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 0.431
+      },
+      {
+        "text": "friend) and with a normal appetite. When asked what she\nnormally ate she replied \"bagels with peanutbutter and jelly,\n[REDACTED] muffins, tuna, and egg salad.\" She did aknowledge she \nhas\nlost weight(30lbs",
+        "start": 971,
+        "end": 1176,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "weight_change"
+        ],
+        "relevance": "high",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.675
+      },
+      {
+        "text": "'t know why because\nshe has been eating normally. She did look very thin o",
+        "start": 1203,
+        "end": 1277,
+        "branches": [
+          "C"
+        ],
+        "factors": [
+          "Social Isolation Risk: No"
+        ],
+        "relevance": "high",
+        "is_nexus": false,
+        "color_key": "C",
+        "match_score": 0.521
+      },
+      {
+        "text": "ned her head away and\nwould not answer any questions. \n\nShe is trying to go to a [REDACTED] facility in [REDACTED] for\n[REDACTED] but she is required to have a 3 midnight admission\nin a hospital beforehand. Her apt has been auctioned off and \nwill\nbe homeless at the end of the week.",
+        "start": 2001,
+        "end": 2284,
+        "branches": [
+          "C"
+        ],
+        "factors": [
+          "housing_crisis",
+          "causal_step_1",
+          "Housing Crisis: homelessness, imminent homelessness, housing loss"
+        ],
+        "relevance": "high",
+        "is_nexus": false,
+        "color_key": "C",
+        "match_score": 0.678
+      },
+      {
+        "text": "jump out",
+        "start": 2537,
+        "end": 2545,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "critical_signal_suicide"
+        ],
+        "relevance": "high",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 1.0
+      },
+      {
+        "text": "te has more\ndetails from Uncle. \n \nPast Medical History:\nPAST PSYCHIATRIC HISTORY:\nHospitalizations: Denies\nCurrent treaters and treatment: none\nMedication and ECT trials: Risperdal for Chorea movements\nSelf-injury",
+        "start": 2739,
+        "end": 2953,
+        "branches": [
+          "A",
+          "C"
+        ],
+        "factors": [
+          "trauma_history",
+          "Trauma History: trauma/PTSD",
+          "critical_signal_self_harm"
+        ],
+        "relevance": "high",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 1.0
+      },
+      {
+        "text": "ver a year\n[REDACTED] disease\n \nSocial H",
+        "start": 3142,
+        "end": 3182,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "clinician_prognosis"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.455
+      },
+      {
+        "text": "arly constant, subt",
+        "start": 3592,
+        "end": 3611,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "functional_decline"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.43
+      },
+      {
+        "text": "speech latency",
+        "start": 3754,
+        "end": 3768,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "functional_decline"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 1.0
+      },
+      {
+        "text": "ongue\n[REDACTED] Motor: MAEE with antigravity strengt",
+        "start": 4042,
+        "end": 4095,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "warning_sign"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.444
+      },
+      {
+        "text": "CTED] Movement exam: frequent choreiform movements in her trunk,\nshoulders and more dista",
+        "start": 4127,
+        "end": 4216,
+        "branches": [
+          "C"
+        ],
+        "factors": [
+          "causal_mechanism_1"
+        ],
+        "relevance": "low",
+        "is_nexus": false,
+        "color_key": "C",
+        "match_score": 0.363
+      },
+      {
+        "text": "Tricycl-NEG\n[REDACTED] 11:50AM URINE Color-St",
+        "start": 5491,
+        "end": 5536,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "warning_sign",
+          "functional_decline"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.496
+      },
+      {
+        "text": "aggression",
+        "start": 5974,
+        "end": 5984,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "critical_signal_violence"
+        ],
+        "relevance": "high",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 1.0
+      },
+      {
+        "text": "as \npleasant and cooperative and did not show any irritability, \nimpulsivity or aggression",
+        "start": 7242,
+        "end": 7332,
+        "branches": [
+          "C"
+        ],
+        "factors": [
+          "Trauma History: trauma/PTSD"
+        ],
+        "relevance": "high",
+        "is_nexus": false,
+        "color_key": "C",
+        "match_score": 0.373
+      },
+      {
+        "text": "SOCIAL\nThe team coordinated care w/ the pt's family who were supp",
+        "start": 7604,
+        "end": 7669,
+        "branches": [
+          "C"
+        ],
+        "factors": [
+          "Housing Crisis: homelessness, imminent homelessness, housing loss",
+          "housing_crisis"
+        ],
+        "relevance": "high",
+        "is_nexus": false,
+        "color_key": "C",
+        "match_score": 0.444
+      },
+      {
+        "text": "difficulty w/ verbalizing thoughts/feelin",
+        "start": 7943,
+        "end": 7984,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "clinician_prognosis"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.624
+      },
+      {
+        "text": "TED], she was seen to be interacting we",
+        "start": 8009,
+        "end": 8048,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "clinician_prognosis"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.667
+      },
+      {
+        "text": "e has been calm and in very good behavioral control throughout \nthe entirity of her psychiatric admission.  She consistently \ndenied ",
+        "start": 8320,
+        "end": 8453,
+        "branches": [
+          "C"
+        ],
+        "factors": [
+          "Significant weight loss, thin/emaciated"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "C",
+        "match_score": 0.429
+      },
+      {
+        "text": "\nShe does, however, have a high risk of",
+        "start": 8582,
+        "end": 8621,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "clinician_prognosis"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.427
+      },
+      {
+        "text": " of harm to \nself/others, by d/c'ing Ms. [REDACTED] to a facility where she will \nhave",
+        "start": 9080,
+        "end": 9166,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "Chronic stable Mood Disorder secondary to General Medical Condition",
+          "causal_step_1"
+        ],
+        "relevance": "high",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.617
+      },
+      {
+        "text": "te.\n1. RISperidone 0.75 mg PO ",
+        "start": 9406,
+        "end": 9436,
+        "branches": [
+          "A"
+        ],
+        "factors": [
+          "warning_sign"
+        ],
+        "relevance": "medium",
+        "is_nexus": false,
+        "color_key": "A",
+        "match_score": 0.489
+      },
+      {
+        "text": "et Refills:*0\n2. RISperidone 0.25-0.5 mg PO BID:PRN agitation \nRX *risperidone 0.25 mg [REDACTED] tablet(s) by mouth twice a day Disp",
+        "start": 9568,
+        "end": 9701,
+        "branches": [
+          "A",
+          "C"
+        ],
+        "factors": [
+          "warning_sign",
+          "Significant weight loss, thin/emaciated",
+          "weight_change"
+        ],
+        "relevance": "medium",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 0.482
+      },
+      {
+        "text": "CTED] Disease  \n\n \nDischarge Condition:\nMental S",
+        "start": 9884,
+        "end": 9932,
+        "branches": [
+          "C",
+          "A"
+        ],
+        "factors": [
+          "warning_sign",
+          "Social Isolation Risk: No",
+          "trauma_history"
+        ],
+        "relevance": "medium",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 0.514
+      }
+    ],
+    "branch_summary": {
+      "A": {
+        "evidence_count": 25,
+        "color": "FF4444",
+        "label": "red"
+      },
+      "B": {
+        "evidence_count": 0,
+        "color": "FF8C00",
+        "label": "orange"
+      },
+      "C": {
+        "evidence_count": 17,
+        "color": "4488FF",
+        "label": "blue"
+      }
+    },
+    "nexus_factors": [
+      {
+        "text": "e: PSYCHIATRY\n \nAllergies: \nNo Known Allergies / Adverse Drug Reactions\n \nAttending: [REDACTED].\n \nChief Complaint:\nIncreased agitation, impulsivity, and difficulty caring for self\n \nMajor Surgical or Inva",
+        "start": 188,
+        "end": 393,
+        "branches": [
+          "A",
+          "C"
+        ],
+        "factors": [
+          "functional_decline",
+          "warning_sign"
+        ],
+        "relevance": "high",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 0.667
+      },
+      {
+        "text": " with PMH of [REDACTED] Chorea and no\nknown psych history, ",
+        "start": 478,
+        "end": 537,
+        "branches": [
+          "C",
+          "A"
+        ],
+        "factors": [
+          "warning_sign"
+        ],
+        "relevance": "medium",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 0.431
+      },
+      {
+        "text": "te has more\ndetails from Uncle. \n \nPast Medical History:\nPAST PSYCHIATRIC HISTORY:\nHospitalizations: Denies\nCurrent treaters and treatment: none\nMedication and ECT trials: Risperdal for Chorea movements\nSelf-injury",
+        "start": 2739,
+        "end": 2953,
+        "branches": [
+          "A",
+          "C"
+        ],
+        "factors": [
+          "trauma_history",
+          "Trauma History: trauma/PTSD",
+          "critical_signal_self_harm"
+        ],
+        "relevance": "high",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 1.0
+      },
+      {
+        "text": "et Refills:*0\n2. RISperidone 0.25-0.5 mg PO BID:PRN agitation \nRX *risperidone 0.25 mg [REDACTED] tablet(s) by mouth twice a day Disp",
+        "start": 9568,
+        "end": 9701,
+        "branches": [
+          "A",
+          "C"
+        ],
+        "factors": [
+          "warning_sign",
+          "Significant weight loss, thin/emaciated",
+          "weight_change"
+        ],
+        "relevance": "medium",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 0.482
+      },
+      {
+        "text": "CTED] Disease  \n\n \nDischarge Condition:\nMental S",
+        "start": 9884,
+        "end": 9932,
+        "branches": [
+          "C",
+          "A"
+        ],
+        "factors": [
+          "warning_sign",
+          "Social Isolation Risk: No",
+          "trauma_history"
+        ],
+        "relevance": "medium",
+        "is_nexus": true,
+        "color_key": "nexus",
+        "match_score": 0.514
+      }
+    ],
+    "nexus_count": 5,
+    "ungrounded_branches": [],
+    "coverage_stats": {
+      "highlighted_chars": 2022,
+      "total_chars": 10711,
+      "coverage_pct": 18.9
+    },
+    "total_spans": 24,
+    "extraction_stats": {
+      "quotes_extracted": 29,
+      "spans_matched": 22,
+      "spans_failed": 7
+    }
+  },
+  "subject_id": "ui",
+  "hadm_id": "ui"
+}
