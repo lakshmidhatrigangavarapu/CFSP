@@ -149,11 +149,12 @@ export NCCL_DEBUG=INFO
 export NCCL_IB_DISABLE=1
 ```
 
-## Citation
+## Dataset used
 
 If using this pipeline:
 ```
 Johnson, A., et al. (2023). MIMIC-IV (version 3.1). PhysioNet.
+Dataset link: https://physionet.org/content/mimiciv/3.1/
 ```
 ## Disclaimer
 
