@@ -28,6 +28,9 @@ Fig.1.Unified Core architecture of the proposed Mental Health Scenario Processin
 
 
 
+
+
+
 <img width="821" height="1125" alt="image" src="https://github.com/user-attachments/assets/0b0a4cf9-c04d-4419-a837-da965230e0bc" />
 Fig.2.Full pipeline work flow of the proposed system 
 
