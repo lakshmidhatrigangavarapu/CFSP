@@ -22,17 +22,18 @@ The framework operates in three stages:
 2. **Phase 2: Extreme Scenario Generation** — Generates counterfactual narratives of extreme adverse mental health trajectories using Tree-of-Thoughts reasoning
 3. **Phase 3: Clinical Report with XAI** — Generates patient preparedness reports with causal pathway justifications and uncertainty estimates
 
-
-<img width="1670" height="817" alt="image" src="https://github.com/user-attachments/assets/61ad5582-4e52-4351-b2d4-581fe825b531" />
 Fig.1.Unified Core architecture of the proposed Mental Health Scenario Processing Engine
 
+<img width="1670" height="817" alt="image" src="https://github.com/user-attachments/assets/61ad5582-4e52-4351-b2d4-581fe825b531" />
 
 
 
 
+
+
+Fig.2.Full pipeline work flow of the proposed system 
 
 <img width="821" height="1125" alt="image" src="https://github.com/user-attachments/assets/0b0a4cf9-c04d-4419-a837-da965230e0bc" />
-Fig.2.Full pipeline work flow of the proposed system 
 
 
 ## Quick Start
